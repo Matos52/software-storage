@@ -1,0 +1,65 @@
+{
+  "Header": {
+    "Main Text": "Preskúmajte domy, ktoré splnia vaše sny",
+    "Accommodation": "Ubytovanie",
+    "Contact Us": "Kontaktuje nás"
+  },
+  "Navbar": {
+    "Home": "Domov",
+    "About": "O nás",
+    "Accommodation": "Ubytovanie",
+    "Testimonials": "Čo o nás hovoria",
+    "Sign Up": "Prihlásenie"
+  },
+  "About": {
+    "Title1": "O našom",
+    "Title2": "Penzióne",
+    "Slogan": "Objavte pokoj v srdci Pieninského národného parku",
+    "Description": "Oddýchnite si tam, kde rieka Dunajec stretáva ticho Pienin. V srdci Pieninského národného parku v obci Červený Kláštor vás čaká celoročné ubytovanie v útulných domčekoch a apartmánoch obklopených krásnou prírodou. Užite si pokojné rána s možnosťou chutných raňajok, večerné posedenia s rodinou či priateľmi pri krbe alebo grile a príjemnú atmosféru záhrady priamo v areáli penziónu. Samozrejmosťou je súkromné parkovanie, plne vybavené kuchynky a detský kútik pre najmenších hostí. Či už hľadáte miesto na rodinnú dovolenku, stretnutie s priateľmi, školský výlet alebo firemné posedenie, u nás nájdete pokoj, pohodlie a priestor na spoločné chvíle v jedinečnom prostredí Pienin. Miesto, kde spomalíte, nadýchnete sa a budete sa chcieť vrátiť.",
+    "Years": "Rokov v prevádzke",
+    "Guesthouses": "Penzióny",
+    "Apartments": "Apartmány",
+    "Beds": "Lôžok",
+    "Learn more": "Zistiť viac"
+  },
+  "Accommodation": {
+    "Title1": "Naše",
+    "Title2": "penzióny a apartmány",
+    "Slogan": "Komfortné a plne vybavené izby pre váš príjemný oddych.",
+    "Penzion1": {
+      "Title": "Penzión pod Troma Korunami",
+      "Rooms": "6 samostatných izieb",
+      "Beds": "13 lôžok",
+      "Extra Beds": "5 prísteliek"
+    },
+    "Penzion2": {
+      "Title": "Chalupa pod Troma Korunami",
+      "Rooms": "4 samostatné izby",
+      "Beds": "11 lôžok",
+      "Extra Beds": "1 prístelka"
+    },
+    "Apartment1": {
+      "Title": "Apartmán s výhľadom do záhrady",
+      "Rooms": "Samostatný apartmán",
+      "Beds": "2 lôžka",
+      "Extra Beds": "2 prístelky"
+    },
+    "Apartment2": {
+      "Title": "Apartmán s výhľadom na hory",
+      "Rooms": "Samostatný apartmán",
+      "Beds": "2 lôžka",
+      "Extra Beds": "2 prístelky"
+    }
+  },
+  "Contact": {
+    "Title1": "Kontaktujte",
+    "Title2": "nás",
+    "Slogan": "Naplánujte si oddych v srdci Pienin – sme tu pre vás",
+    "First name": "Krstné meno",
+    "Last name": "Priezvisko",
+    "Phone number": "Telefónne číslo",
+    "Email": "Email",
+    "Message": "Správa",
+    "Button": "Odoslať správu"
+  }
+}

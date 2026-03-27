@@ -1,0 +1,65 @@
+{
+  "Header": {
+    "Main Text": "Explore Homes that fit your dreams",
+    "Accommodation": "Accommodation",
+    "Contact Us": "Contact Us"
+  },
+  "Navbar": {
+    "Home": "Home",
+    "About": "About",
+    "Accommodation": "Accommodation",
+    "Testimonials": "Testimonials",
+    "Sign Up": "Sign Up"
+  },
+  "About": {
+    "Title1": "About Our",
+    "Title2": "Geusthouse",
+    "Slogan": "Discover peace in the heart of Pieniny National Park",
+    "Description": "Relax where the Dunajec River meets the silence of the Pieniny Mountains. Located in the heart of Pieniny National Park in the village of Červený Kláštor, our year-round guesthouse offers cozy cottages and apartments surrounded by beautiful nature. Enjoy peaceful mornings with optional breakfast, pleasant evenings with family and friends by the fireplace or barbecue, and relaxing moments in the garden seating area within the guesthouse grounds. Private parking, fully equipped kitchenettes, and a children’s play corner are available for your comfort. Whether you are planning a family holiday, a trip with friends, a school excursion, or a small corporate gathering, you will find comfort, tranquility, and space to enjoy time together in the unique atmosphere of the Pieniny region. A place to slow down, breathe deeply, and return again.",
+    "Years": "Years in Operation",
+    "Guesthouses": "Guesthouses",
+    "Apartments": "Apartments",
+    "Beds": "Beds",
+    "Learn more": "Learn more"
+  },
+  "Accommodation": {
+    "Title1": "Our",
+    "Title2": "Guesthouses and Apartments",
+    "Slogan": "Comfortable and fully equipped rooms for your pleasant and relaxing stay",
+    "Penzion1": {
+      "Title": "Guesthouse Under the Three Crowns",
+      "Rooms": "6 private rooms",
+      "Beds": "13 beds",
+      "Extra Beds": "5 extra beds"
+    },
+    "Penzion2": {
+      "Title": "Cottage Under the Three Crowns",
+      "Rooms": "4 private rooms",
+      "Beds": "11 beds",
+      "Extra Beds": "1 extra bed"
+    },
+    "Apartment1": {
+      "Title": "Garden View Apartment",
+      "Rooms": "Private apartment",
+      "Beds": "2 beds",
+      "Extra Beds": "2 extra beds"
+    },
+    "Apartment2": {
+      "Title": "Mountain View Apartment",
+      "Rooms": "Private apartment",
+      "Beds": "2 beds",
+      "Extra Beds": "2 extra beds"
+    }
+  },
+  "Contact": {
+    "Title1": "Contact",
+    "Title2": "us",
+    "Slogan": "Plan your stay in the heart of the Pieniny Mountains – we’re here for you",
+    "First name": "First Name",
+    "Last name": "Last name",
+    "Phone number": "Phone number",
+    "Email": "Email",
+    "Message": "Message",
+    "Button": "Send Message"
+  }
+}

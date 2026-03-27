@@ -1,0 +1,4 @@
+- prerobit vsetky texty na props aby sa do buducna dala spravit zmena jazyka, 
+  na zaciatok bude stacit slovencina, anglictina a pripadne polstina
+- rozdelit na 4 rozne objekty (predny penzion, zadny penzion, predny apartman, zadny apartman),
+  ktore sa daju odkliknut a presmerovat na nove okno s detailmi
