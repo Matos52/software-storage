@@ -51,6 +51,11 @@
       "Extra Beds": "2 extra beds"
     }
   },
+  "Testimonials": {
+    "Title1": "Guest",
+    "Title2": "Testimonials",
+    "Slogan": "See what our guests say about their stay"
+  },
   "Contact": {
     "Title1": "Contact",
     "Title2": "us",

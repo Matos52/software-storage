@@ -2,6 +2,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import Title from "./Title";
 
 useState;
 
@@ -43,13 +44,16 @@ export default function Contact() {
       className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden"
       id="Contact"
     >
-      <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
-        {t("Contact.Title1")}{" "}
-        <span className="underline underline-offset-4 decoration-1 under font-light">{t("Contact.Title2")}</span>
-      </h1>
-      <p className="text-center text-gray-500 mb-4 max-w-80 mx-auto">{t("Contact.Slogan")}</p>
+      <Title
+        title1={t("Contact.Title1")}
+        title2={t("Contact.Title2")}
+        slogan={t("Contact.Slogan")}
+      />
 
-      <form className="max-w-2xl mx-auto text-gray-600 pt-8 px-4 sm:px-0" onSubmit={onSubmit}>
+      <form
+        className="max-w-2xl mx-auto text-gray-600 pt-3 px-4 sm:px-0"
+        onSubmit={onSubmit}
+      >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="text-left">
             {t("Contact.First name")}

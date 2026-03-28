@@ -51,6 +51,11 @@
       "Extra Beds": "2 prístelky"
     }
   },
+  "Testimonials": {
+    "Title1": "Recenzie",
+    "Title2": "hostí",
+    "Slogan": "Pozrite si, čo o nás hovoria naši hostia"
+  },
   "Contact": {
     "Title1": "Kontaktujte",
     "Title2": "nás",

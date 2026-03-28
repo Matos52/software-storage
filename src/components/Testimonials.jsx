@@ -1,7 +1,11 @@
 import { assets, testimonialsData } from "../assets/assets";
 import { motion } from "framer-motion";
+import Title from "./Title";
+import { useTranslation } from "react-i18next";
 
 export default function Testimonials() {
+  const { t } = useTranslation();
+
   return (
     <motion.div
       initial={{ opacity: 0, x: 200 }}
@@ -11,15 +15,11 @@ export default function Testimonials() {
       className="container mx-auto py-10 lg:px-32 w-full overflow-hidden"
       id="Testimonials"
     >
-      <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
-        Customer{" "}
-        <span className="underline underline-offset-4 decoration-1 under font-light">
-          Testimonials
-        </span>
-      </h1>
-      <p className="text-center text-gray-500 mb-12 max-w-80 mx-auto">
-        Real Stories from Those Who Found Home With Us
-      </p>
+      <Title
+        title1={t("Testimonials.Title1")}
+        title2={t("Testimonials.Title2")}
+        slogan={t("Testimonials.Slogan")}
+      />
 
       <div className="flex flex-wrap justify-center gap-8">
         {testimonialsData.map((testimonial, index) => (

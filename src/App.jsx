@@ -1,21 +1,20 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Accommodation from "./components/Accommodation";
-import Testimonials from "./components/Testimonials";
-import { ToastContainer } from 'react-toastify';
+import { Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
+import HomePage from "./pages/Homepage";
+import AccommodationDetailPage from "./pages/AccommodationDetailPage";
 
-export default function App() {
+function App() {
   return (
-    <div className="w-full overflow-hidden">
-      <ToastContainer />
-      <Header />
-      <About />
-      <Accommodation />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route
+          path="accommodation/:slug"
+          element={<AccommodationDetailPage />}
+        />
+      </Route>
+    </Routes>
   );
 }
+
+export default App;

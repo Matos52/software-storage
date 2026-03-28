@@ -11,7 +11,6 @@ export default function Header() {
       style={{ backgroundImage: "url('/header_img.png')" }}
       id="Header"
     >
-      <Navbar />
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         transition={{ duration: 1.5 }}

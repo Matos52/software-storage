@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { assets } from "../assets/assets";
 import { motion } from "framer-motion";
+import Title from "./Title";
 
 export default function About() {
   const { t } = useTranslation();
@@ -14,11 +15,11 @@ export default function About() {
       className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden"
       id="About"
     >
-      <h1 className="text-2xl sm:text-4xl font-bold mb-2">
-        {t("About.Title1")}{" "}
-        <span className="underline underline-offset-4 decoration-1 under font-light">{t("About.Title2")}</span>
-      </h1>
-      <p className="text-gray-500 max-w-80 text-center mb-8">{t("About.Slogan")}</p>
+      <Title
+        title1={t("About.Title1")}
+        title2={t("About.Title2")}
+        slogan={t("About.Slogan")}
+      />
       <div className="flex flex-col md:flex-row items-center md:items-start md:gap-20">
         <img src={assets.brand_img} alt="Brand Image" className="w-full sm:w-1/2 max-w-lg" />
         <div className="flex flex-col items-center md:items-start mt-10 text-gray-600">
