@@ -7,11 +7,21 @@ import Contact from "../components/Contact";
 const HomePage = () => {
   return (
     <>
-      <Header />
-      <About />
-      <Accommodation />
-      <Testimonials />
-      <Contact />
+      <section id="header">
+        <Header />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="accommodation">
+        <Accommodation />
+      </section>
+      <section id="testimonials">
+        <Testimonials />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </>
   );
 };

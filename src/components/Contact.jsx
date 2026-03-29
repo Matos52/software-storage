@@ -42,7 +42,6 @@ export default function Contact() {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden"
-      id="Contact"
     >
       <Title
         title1={t("Contact.Title1")}

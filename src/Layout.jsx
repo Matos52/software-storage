@@ -2,11 +2,13 @@ import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { ToastContainer } from "react-toastify";
+import ScrollToHash from "./components/helper/ScrollToHash";
 
 const Layout = () => {
   return (
     <div className="w-full overflow-hidden">
       <ToastContainer />
+      <ScrollToHash />
       <Navbar />
       <Outlet />
       <Footer />

@@ -44,7 +44,6 @@ export default function Accommodation() {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       className="container mx-auto py-4 pt-20 px-6 md:px-20 lg:px-32 my-20 w-full overflow-hidden"
-      id="Accommodation"
     >
       <Title 
         title1={t("Accommodation.Title1")}

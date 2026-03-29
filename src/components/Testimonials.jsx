@@ -13,7 +13,6 @@ export default function Testimonials() {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       className="container mx-auto py-10 lg:px-32 w-full overflow-hidden"
-      id="Testimonials"
     >
       <Title
         title1={t("Testimonials.Title1")}

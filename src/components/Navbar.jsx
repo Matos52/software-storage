@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { assets } from "../assets/assets";
 import { useEffect } from "react";
-import LanguageSwitcher from "./LanguageSwitcher";
+import LanguageSwitcher from "./helper/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -25,28 +26,32 @@ export default function Navbar() {
   }, [showMobileMenu]);
 
   return (
-    <div className="absolute top-0 left-0 w-full z-10">
+    <div className="absolute top-0 left-0 w-full z-10 bg-gradient-to-b from-black/70 to-transparent">
+    {/* <div className="absolute top-0 left-0 w-full z-10"> */}
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
         <div className="flex items-center">
           <img className="w-32" src={assets.penzion_logo} alt="Logo" />
         </div>
-        <ul className="hidden md:flex gap-7 text-white">
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+        <div className="hidden md:flex gap-7 text-white">
+          <Link to="/#header" className="cursor-pointer hover:text-gray-400">
             {t("Navbar.Home")}
-          </a>
-          <a href="#About" className="cursor-pointer hover:text-gray-400">
+          </Link>
+          <Link to="/#about" className="cursor-pointer hover:text-gray-400">
             {t("Navbar.About")}
-          </a>
-          <a href="#Accommodation" className="cursor-pointer hover:text-gray-400">
+          </Link>
+          <Link
+            to="/#accommodation"
+            className="cursor-pointer hover:text-gray-400"
+          >
             {t("Navbar.Accommodation")}
-          </a>
-          <a
-            href="#Testimonials"
+          </Link>
+          <Link
+            to="/#testimonials"
             className="cursor-pointer hover:text-gray-400"
           >
             {t("Navbar.Testimonials")}
-          </a>
-        </ul>
+          </Link>
+        </div>
         <div className="hidden md:flex items-center gap-2">
           <LanguageSwitcher />
           <button className="bg-white px-8 py-2 rounded-full">
@@ -72,39 +77,37 @@ export default function Navbar() {
             onClick={handleShowMobilMenu}
           />
         </div>
-        <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
-          <a
-            href="#Header"
+        <div className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
+          <Link
+            to="/#header"
             className="px-4 py-2 rounded-full inline-block"
             onClick={handleShowMobilMenu}
           >
             {t("Navbar.Home")}
-          </a>
-          <a
-            href="#About"
+          </Link>
+          <Link
+            to="/#about"
             className="px-4 py-2 rounded-full inline-block"
             onClick={handleShowMobilMenu}
           >
             {t("Navbar.About")}
-          </a>
-          <a
-            href="#Accommodation"
+          </Link>
+          <Link
+            to="/#accommodation"
             className="px-4 py-2 rounded-full inline-block"
             onClick={handleShowMobilMenu}
           >
             {t("Navbar.Accommodation")}
-          </a>
-          <a
-            href="#Testimonials"
+          </Link>
+          <Link
+            to="/#testimonials"
             className="px-4 py-2 rounded-full inline-block"
             onClick={handleShowMobilMenu}
           >
             {t("Navbar.Testimonials")}
-          </a>
-          <a>
-            <LanguageSwitcher />
-          </a>
-        </ul>
+          </Link>
+          <LanguageSwitcher />
+        </div>
       </div>
     </div>
   );

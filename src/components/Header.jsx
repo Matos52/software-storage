@@ -22,10 +22,10 @@ export default function Header() {
           {t("Header.Main Text")}
         </h2>
         <div className="space-x-6 mt-16">
-          <a href="#Accommodation" className="border border-white px-8 py-3 rounded">
+          <a href="#accommodation" className="border border-white px-8 py-3 rounded">
             {t("Header.Accommodation")}
           </a>
-          <a href="#Contact" className="bg-blue-500 px-8 py-3 rounded">
+          <a href="#contact" className="bg-blue-500 px-8 py-3 rounded">
             {t("Header.Contact Us")}
           </a>
         </div>
