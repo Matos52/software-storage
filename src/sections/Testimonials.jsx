@@ -1,6 +1,6 @@
 import { assets, testimonialsData } from "../assets/assets";
 import { motion } from "framer-motion";
-import Title from "./Title";
+import SectionTitle from "../components/ui/SectionTitle";
 import { useTranslation } from "react-i18next";
 
 export default function Testimonials() {
@@ -14,7 +14,7 @@ export default function Testimonials() {
       viewport={{ once: true }}
       className="container mx-auto py-10 lg:px-32 w-full overflow-hidden"
     >
-      <Title
+      <SectionTitle
         title1={t("Testimonials.Title1")}
         title2={t("Testimonials.Title2")}
         slogan={t("Testimonials.Slogan")}

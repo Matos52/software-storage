@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { assets } from "../assets/assets";
 import { motion } from "framer-motion";
-import Title from "./Title";
+import SectionTitle from "../components/ui/SectionTitle";
 
 export default function About() {
   const { t } = useTranslation();
@@ -14,7 +14,7 @@ export default function About() {
       viewport={{ once: true }}
       className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden"
     >
-      <Title
+      <SectionTitle
         title1={t("About.Title1")}
         title2={t("About.Title2")}
         slogan={t("About.Slogan")}

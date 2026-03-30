@@ -2,7 +2,7 @@ import { useState } from "react";
 import { toast } from "react-toastify";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import Title from "./Title";
+import SectionTitle from "../components/ui/SectionTitle";
 
 useState;
 
@@ -43,7 +43,7 @@ export default function Contact() {
       viewport={{ once: true }}
       className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden"
     >
-      <Title
+      <SectionTitle
         title1={t("Contact.Title1")}
         title2={t("Contact.Title2")}
         slogan={t("Contact.Slogan")}

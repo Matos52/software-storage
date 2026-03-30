@@ -1,4 +1,4 @@
-const Title = ({ title1, title2, slogan }) => {
+const SectionTitle = ({ title1, title2, slogan }) => {
   return (
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-2xl sm:text-4xl font-bold mb-2">
@@ -14,4 +14,4 @@ const Title = ({ title1, title2, slogan }) => {
   );
 };
 
-export default Title;
+export default SectionTitle;

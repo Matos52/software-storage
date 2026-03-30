@@ -1,8 +1,8 @@
-import Header from "../components/Header";
-import About from "../components/About";
-import Accommodation from "../components/Accommodation";
-import Testimonials from "../components/Testimonials";
-import Contact from "../components/Contact";
+import Header from "../sections/Header";
+import Accommodation from "../sections/Accommodation";
+import Testimonials from "../sections/Testimonials";
+import Contact from "../sections/Contact";
+import About from "../sections/About";
 
 const HomePage = () => {
   return (

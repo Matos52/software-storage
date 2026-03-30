@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Navbar from "../components/navigation/Navbar";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 

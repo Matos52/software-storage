@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { assets } from "../assets/assets";
+import { assets } from "../../assets/assets";
 import { useEffect } from "react";
-import LanguageSwitcher from "./helper/LanguageSwitcher";
+import LanguageSwitcher from "../helper/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import NavbarItem from "../ui/NavbarItem";
 
 export default function Navbar() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -27,30 +28,16 @@ export default function Navbar() {
 
   return (
     <div className="absolute top-0 left-0 w-full z-10 bg-gradient-to-b from-black/70 to-transparent">
-    {/* <div className="absolute top-0 left-0 w-full z-10"> */}
+      {/* <div className="absolute top-0 left-0 w-full z-10"> */}
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
-        <div className="flex items-center">
+        <Link to="/#header" className="flex items-center">
           <img className="w-32" src={assets.penzion_logo} alt="Logo" />
-        </div>
+        </Link>
         <div className="hidden md:flex gap-7 text-white">
-          <Link to="/#header" className="cursor-pointer hover:text-gray-400">
-            {t("Navbar.Home")}
-          </Link>
-          <Link to="/#about" className="cursor-pointer hover:text-gray-400">
-            {t("Navbar.About")}
-          </Link>
-          <Link
-            to="/#accommodation"
-            className="cursor-pointer hover:text-gray-400"
-          >
-            {t("Navbar.Accommodation")}
-          </Link>
-          <Link
-            to="/#testimonials"
-            className="cursor-pointer hover:text-gray-400"
-          >
-            {t("Navbar.Testimonials")}
-          </Link>
+          <NavbarItem to={"/#header"} title={t("Navbar.Home")} />
+          <NavbarItem to={"/#about"} title={t("Navbar.About")} />
+          <NavbarItem to={"/#accommodation"} title={t("Navbar.Accommodation")} />
+          <NavbarItem to={"/#testimonials"} title={t("Navbar.Testimonials")} />
         </div>
         <div className="hidden md:flex items-center gap-2">
           <LanguageSwitcher />
@@ -67,7 +54,9 @@ export default function Navbar() {
       </div>
       {/* ---- mobile menu ---- */}
       <div
-        className={`md:hidden ${showMobileMenu ? "fixed w-full" : "h-0 w-0"} right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}
+        className={`md:hidden ${
+          showMobileMenu ? "fixed inset-0" : "hidden"
+        } bg-white transition-all`}
       >
         <div className="flex justify-end p-6 cursor-pointer">
           <img
