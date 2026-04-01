@@ -26,26 +26,35 @@
     "Title1": "Our",
     "Title2": "Guesthouses and Apartments",
     "Slogan": "Comfortable and fully equipped rooms for your pleasant and relaxing stay",
+    "Location": "Červený Kláštor",
     "Penzion1": {
       "Title": "Guesthouse Under the Three Crowns",
+      "Title1": "Guesthouse",
+      "Title2": "Under the Three Crowns",
       "Rooms": "6 private rooms",
       "Beds": "13 beds",
       "Extra Beds": "5 extra beds"
     },
     "Penzion2": {
       "Title": "Cottage Under the Three Crowns",
+      "Title1": "Cottage",
+      "Title2": "Under the Three Crowns",
       "Rooms": "4 private rooms",
       "Beds": "11 beds",
       "Extra Beds": "1 extra bed"
     },
     "Apartment1": {
       "Title": "Garden View Apartment",
+      "Title1": "Garden",
+      "Title2": "View Apartment",
       "Rooms": "Private apartment",
       "Beds": "2 beds",
       "Extra Beds": "2 extra beds"
     },
     "Apartment2": {
       "Title": "Mountain View Apartment",
+      "Title1": "Mountain",
+      "Title2": "View Apartment",
       "Rooms": "Private apartment",
       "Beds": "2 beds",
       "Extra Beds": "2 extra beds"

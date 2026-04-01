@@ -26,26 +26,35 @@
     "Title1": "Naše",
     "Title2": "penzióny a apartmány",
     "Slogan": "Komfortné a plne vybavené izby pre váš príjemný oddych.",
+    "Location": "Červený Kláštor",
     "Penzion1": {
       "Title": "Penzión pod Troma Korunami",
+      "Title1": "Penzión",
+      "Title2": "pod Troma Korunami",
       "Rooms": "6 samostatných izieb",
       "Beds": "13 lôžok",
       "Extra Beds": "5 prísteliek"
     },
     "Penzion2": {
       "Title": "Chalupa pod Troma Korunami",
+      "Title1": "Chalupa",
+      "Title2": "pod Troma Korunami",
       "Rooms": "4 samostatné izby",
       "Beds": "11 lôžok",
       "Extra Beds": "1 prístelka"
     },
     "Apartment1": {
       "Title": "Apartmán s výhľadom do záhrady",
+      "Title1": "Apartmán",
+      "Title2": "s výhľadom do záhrady",
       "Rooms": "Samostatný apartmán",
       "Beds": "2 lôžka",
       "Extra Beds": "2 prístelky"
     },
     "Apartment2": {
       "Title": "Apartmán s výhľadom na hory",
+      "Title1": "Apartmán",
+      "Title2": "s výhľadom na hory",
       "Rooms": "Samostatný apartmán",
       "Beds": "2 lôžka",
       "Extra Beds": "2 prístelky"

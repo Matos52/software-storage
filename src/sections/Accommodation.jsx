@@ -1,11 +1,7 @@
 import { useEffect, useState } from "react";
-import { assets, projectsData } from "../assets/assets";
+import { accommodations, assets, projectsData } from "../assets/assets";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import project_img_1 from "../assets/project_img_1.jpg";
-import project_img_2 from "../assets/project_img_2.jpg";
-import project_img_3 from "../assets/project_img_3.jpg";
-import project_img_4 from "../assets/project_img_4.jpg";
 import SectionTitle from "../components/ui/SectionTitle";
 import AccommodationCard from "../components/ui/AccommodationCard";
 
@@ -74,41 +70,17 @@ export default function Accommodation() {
 
       {/* project slider container */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <AccommodationCard
-          image={project_img_1}
-          title={t("Accommodation.Penzion1.Title")}
-          rooms={t("Accommodation.Penzion1.Rooms")}
-          beds={t("Accommodation.Penzion1.Beds")}
-          extraBeds={t("Accommodation.Penzion1.Extra Beds")}
-          slug="guesthouse"
-        />
-
-        <AccommodationCard
-          image={project_img_2}
-          title={t("Accommodation.Penzion2.Title")}
-          rooms={t("Accommodation.Penzion2.Rooms")}
-          beds={t("Accommodation.Penzion2.Beds")}
-          extraBeds={t("Accommodation.Penzion2.Extra Beds")}
-          slug="cottage"
-        />
-
-        <AccommodationCard
-          image={project_img_3}
-          title={t("Accommodation.Apartment1.Title")}
-          rooms={t("Accommodation.Apartment1.Rooms")}
-          beds={t("Accommodation.Apartment1.Beds")}
-          extraBeds={t("Accommodation.Apartment1.Extra Beds")}
-          slug="apartment1"
-        />
-
-        <AccommodationCard
-          image={project_img_4}
-          title={t("Accommodation.Apartment2.Title")}
-          rooms={t("Accommodation.Apartment2.Rooms")}
-          beds={t("Accommodation.Apartment2.Beds")}
-          extraBeds={t("Accommodation.Apartment2.Extra Beds")}
-          slug="apartment2"
-        />
+        {accommodations.map((item) => (
+          <AccommodationCard
+            key={item.slug}
+            image={item.images[0]}
+            title={t(`${item.translationKey}.Title`)}
+            rooms={t(`${item.translationKey}.Rooms`)}
+            beds={t(`${item.translationKey}.Beds`)}
+            extraBeds={t(`${item.translationKey}.Extra Beds`)}
+            slug={item.slug}
+          />
+        ))}
       </div>
     </motion.div>
   );
