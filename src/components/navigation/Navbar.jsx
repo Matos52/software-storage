@@ -27,13 +27,13 @@ export default function Navbar() {
   }, [showMobileMenu]);
 
   return (
-    <div className="absolute top-0 left-0 w-full z-10 bg-gradient-to-b from-black/70 to-transparent">
+    <div className="absolute top-0 left-0 w-full z-10 bg-gradient-to-b from-black/80 to-transparent">
       {/* <div className="absolute top-0 left-0 w-full z-10"> */}
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
         <Link to="/#header" className="flex items-center">
-          <img className="w-32" src={assets.penzion_logo} alt="Logo" />
+          <img className="w-32 md:w-40" src={assets.penzion_logo} alt="Logo" />
         </Link>
-        <div className="hidden md:flex gap-7 text-white">
+        <div className="hidden md:flex gap-7 text-white font-semibold">
           <NavbarItem to={"/#header"} title={t("Navbar.Home")} />
           <NavbarItem to={"/#about"} title={t("Navbar.About")} />
           <NavbarItem to={"/#accommodation"} title={t("Navbar.Accommodation")} />

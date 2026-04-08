@@ -1,21 +1,22 @@
-import logo from "./logo.svg";
-import logo_dark from "./logo_dark.svg";
-import cross_icon from "./cross_icon.svg";
-import menu_icon from "./menu_icon.svg";
-import star_icon from "./star_icon.svg";
-import left_arrow from "./left_arrow.svg";
-import right_arrow from "./right_arrow.svg";
-import header_img from "./header_img.png";
-import brand_img from "./brand_img.png";
-import project_img_1 from "./project_img_1.jpg";
-import project_img_2 from "./project_img_2.jpg";
-import project_img_3 from "./project_img_3.jpg";
-import project_img_4 from "./project_img_4.jpg";
-import profile_img_1 from "./profile_img_1.png";
-import profile_img_2 from "./profile_img_2.png";
-import profile_img_3 from "./profile_img_3.png";
-import penzion_logo from "./penzion_logo7.png";
-import { title } from "framer-motion/client";
+import logo from "./icons/general/logo.svg";
+import logo_dark from "./icons/general/logo_dark.svg";
+import cross_icon from "./icons/general/cross_icon.svg";
+import menu_icon from "./icons/general/menu_icon.svg";
+import star_icon from "./icons/general/star_icon.svg";
+import left_arrow from "./icons/general/left_arrow.svg";
+import right_arrow from "./icons/general/right_arrow.svg";
+import location_icon from "./icons/accommodation/map-pin.svg"
+import header_img from "./images/header_img.png";
+import brand_img from "./images/brand_img.png";
+import project_img_1 from "./images/project_img_1.jpg";
+import project_img_2 from "./images/project_img_2.jpg";
+import project_img_3 from "./images/project_img_3.jpg";
+import project_img_4 from "./images/project_img_4.jpg";
+import profile_img_1 from "./images/profile_img_1.png";
+import profile_img_2 from "./images/profile_img_2.png";
+import profile_img_3 from "./images/profile_img_3.png";
+import penzion_logo from "./images/penzion_logo7.png";
+import project_img_5 from "./images/IMG_1341.JPEG";
 
 export const assets = {
   logo,
@@ -23,12 +24,14 @@ export const assets = {
   cross_icon,
   menu_icon,
   star_icon,
+  location_icon,
   header_img,
   brand_img,
   project_img_1,
   project_img_2,
   project_img_3,
   project_img_4,
+  project_img_5,
   left_arrow,
   right_arrow,
   penzion_logo,
@@ -90,10 +93,10 @@ export const testimonialsData = [
 
 export const accommodations = [
   {
-    image: project_img_1,
+    image: project_img_5,
     translationKey: "Accommodation.Penzion1",
     slug: "guesthouse",
-    images: [project_img_1],
+    images: [project_img_5],
   },
   {
     image: project_img_2,

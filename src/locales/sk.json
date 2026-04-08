@@ -1,6 +1,6 @@
 {
   "Header": {
-    "Main Text": "Preskúmajte domy, ktoré splnia vaše sny",
+    "Main Text": "Váš pokojný pobyt pod Tromi korunami",
     "Accommodation": "Ubytovanie",
     "Contact Us": "Kontaktuje nás"
   },
@@ -31,6 +31,9 @@
       "Title": "Penzión pod Troma Korunami",
       "Title1": "Penzión",
       "Title2": "pod Troma Korunami",
+      "Desc1": "Penzión ponúka príjemné ubytovanie v šiestich samostatných izbách, ktoré sú ideálne pre rodiny s deťmi, skupiny priateľov aj menšie organizované pobyty. Na prvom poschodí sa nachádzajú štyri izby, z ktorých dve majú vlastnú kúpeľňu so sprchovacím kútom, umývadlom a WC, zatiaľ čo ďalšie dve využívajú spoločné sociálne zariadenie. Zvyšné dve izby sú situované v útulnom podkroví na druhom poschodí a majú k dispozícii ďalšiu spoločnú kúpeľňu.",
+      "Desc2": "Hosťom je k dispozícii priestranná spoločenská miestnosť s krbom, TV so satelitnými kanálmi a pohodlným posedením, ktorá vytvára príjemné miesto na oddych po dni strávenom v prírode. Súčasťou tejto miestnosti je aj detský kútik pre najmenších hostí. K dispozícii je tiež jedáleň a plne vybavená kuchyňa s plynovým sporákom, elektrickou rúrou, mikrovlnnou rúrou, chladničkou s mrazničkou a rýchlovarnou kanvicou, vhodná na prípravu vlastných jedál.",
+      "Desc3": "Priamo pri penzióne sa nachádza kryté vonkajšie posedenie s krbom. Samozrejmosťou je WiFi pripojenie dostupné v celom objekte, ktoré zabezpečuje pohodlný pobyt aj počas dlhších návštev.",
       "Rooms": "6 samostatných izieb",
       "Beds": "13 lôžok",
       "Extra Beds": "5 prísteliek"
@@ -39,6 +42,9 @@
       "Title": "Chalupa pod Troma Korunami",
       "Title1": "Chalupa",
       "Title2": "pod Troma Korunami",
+      "Desc1": "Chalupa pod Tromi Korunami ponúka príjemné ubytovanie v štyroch samostatných izbách a je ideálnou voľbou pre rodiny s deťmi alebo menšie skupiny hostí, ktorí hľadajú pokojnejšie prostredie s väčším súkromím. Nachádza sa v zadnej časti dvora, čo vytvára príjemnú atmosféru na nerušený oddych počas celého pobytu. Súčasťou objektu sú dve sociálne zariadenia so sprchovacím kútom, umývadlom a WC.",
+      "Desc2": "Hosťom je k dispozícii útulná spoločenská miestnosť s krbom, TV so satelitnými kanálmi a pohodlným posedením, ideálna na spoločné večery po dni strávenom v prírode. Nechýba ani plne vybavená kuchyňa s veľkým jedálenským stolom vhodná na prípravu aj spoločné stolovanie.",
+      "Desc3": "Priamo pri chalupe sa nachádza vonkajšie posedenie s krbom a za objektom je pripravený aj gril s ďalším posedením. Súčasťou areálu je priestranná lúka a detské ihrisko, ktoré ocenia najmä rodiny s deťmi. Samozrejmosťou je WiFi pripojenie dostupné v celom objekte.",
       "Rooms": "4 samostatné izby",
       "Beds": "11 lôžok",
       "Extra Beds": "1 prístelka"
@@ -47,6 +53,9 @@
       "Title": "Apartmán s výhľadom do záhrady",
       "Title1": "Apartmán",
       "Title2": "s výhľadom do záhrady",
+      "Desc1": "Apartmán s výhľadom do záhrady ponúka príjemné a pokojné ubytovanie vhodné najmä pre páry alebo rodiny, ktoré hľadajú väčšie súkromie počas pobytu. Súčasťou apartmánu je samostatná izba s manželskou posteľou a možnosťou dvoch prísteliek, vďaka čomu poskytuje dostatok priestoru aj pre menšiu rodinu.",
+      "Desc2": "Útulnú atmosféru dotvárajú krbové kachle, ktoré spríjemnia pobyt najmä počas chladnejších dní. Apartmán je vybavený TV so satelitnými kanálmi, vlastným sociálnym zariadením so sprchovacím kútom a plne vybavenou kuchynkou s plynovým sporákom, elektrickou rúrou, mikrovlnnou rúrou, chladničkou s mrazničkou, rýchlovarnou kanvicou a jedálenským stolom.",
+      "Desc3": "Samozrejmosťou je WiFi pripojenie dostupné v celom apartmáne, aby bol váš pobyt pohodlný aj počas dlhších návštev. Vďaka polohe s výhľadom do záhrady je apartmán ideálnym miestom na pokojný oddych v príjemnom prostredí Pienin.",
       "Rooms": "Samostatný apartmán",
       "Beds": "2 lôžka",
       "Extra Beds": "2 prístelky"
@@ -55,6 +64,9 @@
       "Title": "Apartmán s výhľadom na hory",
       "Title1": "Apartmán",
       "Title2": "s výhľadom na hory",
+      "Desc1": "Apartmán s výhľadom na Tri koruny ponúka príjemné a pokojné ubytovanie vhodné najmä pre páry alebo menšie rodiny, ktoré hľadajú pohodlie a väčšie súkromie počas pobytu. Nachádza sa v zadnej časti areálu v rovnakej budove ako chalupa, pričom má samostatný vchod, ktorý zabezpečuje nerušený pobyt a dostatok súkromia.",
+      "Desc2": "Súčasťou apartmánu je samostatná izba s manželskou posteľou a možnosťou dvoch prísteliek. Apartmán je vybavený TV so satelitnými kanálmi, vlastným sociálnym zariadením so sprchovacím kútom a plne vybavenou kuchyňou vhodnou na prípravu vlastných jedál.",
+      "Desc3": "Samozrejmosťou je WiFi pripojenie dostupné v celom apartmáne. Vďaka pokojnej polohe a krásnemu výhľadu na hory je apartmán ideálnym miestom na oddych v prírode Pieninského národného parku.",
       "Rooms": "Samostatný apartmán",
       "Beds": "2 lôžka",
       "Extra Beds": "2 prístelky"

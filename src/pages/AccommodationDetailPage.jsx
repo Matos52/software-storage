@@ -1,8 +1,7 @@
 import { useParams } from "react-router-dom";
-import { accommodations } from "../assets/assets";
+import { accommodations, assets } from "../assets/assets";
 import { useTranslation } from "react-i18next";
 import SectionTitle from "../components/ui/SectionTitle";
-import location_img from "../assets/icons/map-pin.svg";
 
 const AccommodationDetailPage = () => {
   const { slug } = useParams();
@@ -28,7 +27,7 @@ const AccommodationDetailPage = () => {
         <div className="flex flex-wrap items-center justify-center gap-3 text-gray-500 mt-4 text-sm md:text-base">
           
           <div className="flex items-center gap-2">
-            <img src={location_img} alt="location" className="w-5 h-5" />
+            <img src={assets.location_icon} alt="location" className="w-5 h-5" />
             <span>{t("Accommodation.Location")}</span>
           </div>
 
@@ -56,8 +55,10 @@ const AccommodationDetailPage = () => {
         </div>
 
         {/* Description */}
-        <div className="mt-10 max-w-3xl mx-auto text-gray-600 leading-relaxed text-center">
-          <p>{t(accommodation.description)}</p>
+        <div className="mt-10 max-w-3xl mx-auto text-gray-600 leading-7 text-justify space-y-4">
+          <p>{t(`${accommodation.translationKey}.Desc1`)}</p>
+          <p>{t(`${accommodation.translationKey}.Desc2`)}</p>
+          <p>{t(`${accommodation.translationKey}.Desc3`)}</p>
         </div>
 
       </div>
