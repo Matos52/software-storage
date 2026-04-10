@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <div
-      className="min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden"
+      className="min-h-screen bg-cover bg-center flex items-center w-full overflow-hidden"
       style={{ backgroundImage: "url('/pieniny2.png')" }}
       id="Header"
     >
@@ -22,10 +22,16 @@ export default function Header() {
           {t("Header.Main Text")}
         </h2>
         <div className="space-x-6 mt-16">
-          <a href="#accommodation" className="border border-white px-8 py-3 rounded">
+          <a
+            href="#accommodation"
+            className="border border-white text-white px-7 py-3 rounded-md hover:bg-white hover:text-gray-900 transition duration-300"
+          >
             {t("Header.Accommodation")}
           </a>
-          <a href="#contact" className="bg-blue-500 px-8 py-3 rounded">
+          <a
+            href="#contact"
+            className="bg-lime-700 hover:bg-lime-800 text-white px-6 py-3 rounded-md transition"
+          >
             {t("Header.Contact Us")}
           </a>
         </div>

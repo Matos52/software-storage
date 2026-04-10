@@ -10,13 +10,13 @@ const HomePage = () => {
       <section id="header">
         <Header />
       </section>
-      <section id="about">
+      <section id="about" className="bg-gray-50">
         <About />
       </section>
       <section id="accommodation">
         <Accommodation />
       </section>
-      <section id="testimonials">
+      <section id="testimonials" className="bg-gray-50">
         <Testimonials />
       </section>
       <section id="contact">

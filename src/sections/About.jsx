@@ -41,7 +41,9 @@ export default function About() {
             </div>
           </div>
           <p className="my-10 max-w-lg text-justify">{t("About.Description")}</p>
-          <button className="bg-blue-600 text-white px-8 py-2 rounded">{t("About.Learn more")}</button>
+          <a href="#accommodation" className="bg-lime-700 hover:bg-lime-800 text-white px-6 py-2 rounded-md transition">
+            {t("About.Learn more")}
+          </a>
         </div>
       </div>
     </motion.div>

@@ -16,7 +16,10 @@ import profile_img_1 from "./images/profile_img_1.png";
 import profile_img_2 from "./images/profile_img_2.png";
 import profile_img_3 from "./images/profile_img_3.png";
 import penzion_logo from "./images/penzion_logo7.png";
-import project_img_5 from "./images/IMG_1341.JPEG";
+import penzion_title_1 from "./images/penzion1/IMG_1341.JPEG";
+import penzion_title_2 from "./images/penzion2/IMG_1325.JPEG";
+import apartment_title_1 from "./images/apartment1/IMG_8573.JPEG";
+import apartment_title_2 from "./images/apartment2/FullSizeRender.JPEG";
 
 export const assets = {
   logo,
@@ -31,10 +34,13 @@ export const assets = {
   project_img_2,
   project_img_3,
   project_img_4,
-  project_img_5,
   left_arrow,
   right_arrow,
   penzion_logo,
+  penzion_title_1,
+  penzion_title_2,
+  apartment_title_1,
+  apartment_title_2
 };
 
 export const projectsData = [
@@ -93,27 +99,27 @@ export const testimonialsData = [
 
 export const accommodations = [
   {
-    image: project_img_5,
+    image: penzion_title_1,
     translationKey: "Accommodation.Penzion1",
     slug: "guesthouse",
-    images: [project_img_5],
+    images: [penzion_title_1],
   },
   {
-    image: project_img_2,
+    image: penzion_title_2,
     translationKey: "Accommodation.Penzion2",
     slug: "cottage",
-    images: [project_img_2],
+    images: [penzion_title_2],
   },
   {
-    image: project_img_3,
+    image: apartment_title_1,
     translationKey: "Accommodation.Apartment1",
     slug: "garden-view-apartment",
-    images: [project_img_3],
+    images: [apartment_title_1],
   },
   {
-    image: project_img_4,
+    image: apartment_title_2,
     translationKey: "Accommodation.Apartment2",
     slug: "mountain-view-apartment",
-    images: [project_img_4],
+    images: [apartment_title_2],
   },
 ];
