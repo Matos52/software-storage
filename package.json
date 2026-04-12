@@ -16,6 +16,7 @@
     "caniuse-lite": "^1.0.30001781",
     "framer-motion": "^12.5.0",
     "i18next": "^25.10.5",
+    "lucide-react": "^1.8.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-i18next": "^16.6.2",

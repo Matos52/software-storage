@@ -6,6 +6,15 @@ import star_icon from "./icons/general/star_icon.svg";
 import left_arrow from "./icons/general/left_arrow.svg";
 import right_arrow from "./icons/general/right_arrow.svg";
 import location_icon from "./icons/accommodation/map-pin.svg"
+import bed_icon from "./icons/accommodation/bed-double.svg"
+import bicycle_icon from "./icons/accommodation/bicycle.svg"
+import fireplace_icon from "./icons/accommodation/brick-wall-fire.svg"
+import kitchen_icon from "./icons/accommodation/cooking-pot.svg"
+import garden_icon from "./icons/accommodation/potted-plant.svg"
+import bath_icon from "./icons/accommodation/bath.svg"
+import television_icon from "./icons/accommodation/monitor.svg"
+import parking_icon from "./icons/accommodation/square-parking.svg"
+import outdoor_icon from "./icons/accommodation/picnic-table.svg"
 import header_img from "./images/header_img.png";
 import brand_img from "./images/brand_img.png";
 import project_img_1 from "./images/project_img_1.jpg";
@@ -16,10 +25,22 @@ import profile_img_1 from "./images/profile_img_1.png";
 import profile_img_2 from "./images/profile_img_2.png";
 import profile_img_3 from "./images/profile_img_3.png";
 import penzion_logo from "./images/penzion_logo7.png";
-import penzion_title_1 from "./images/penzion1/IMG_1341.JPEG";
-import penzion_title_2 from "./images/penzion2/IMG_1325.JPEG";
-import apartment_title_1 from "./images/apartment1/IMG_8573.JPEG";
-import apartment_title_2 from "./images/apartment2/FullSizeRender.JPEG";
+import penzion1_1 from "./images/penzion1/IMG_1341.JPEG";
+import penzion1_2 from "./images/penzion1/IMG_7178.JPG";
+import penzion1_3 from "./images/penzion1/IMG_7180.JPG";
+import penzion1_4 from "./images/penzion1/IMG_7181.JPG";
+import penzion2_1 from "./images/penzion2/IMG_1325.JPEG";
+import penzion2_2 from "./images/penzion2/IMG_1325.JPEG";
+import penzion2_3 from "./images/penzion2/IMG_1325.JPEG";
+import penzion2_4 from "./images/penzion2/IMG_1325.JPEG";
+import apartment1_1 from "./images/apartment1/IMG_8573.JPEG";
+import apartment1_2 from "./images/apartment1/IMG_8573.JPEG";
+import apartment1_3 from "./images/apartment1/IMG_8573.JPEG";
+import apartment1_4 from "./images/apartment1/IMG_8573.JPEG";
+import apartment2_1 from "./images/apartment2/FullSizeRender.JPEG";
+import apartment2_2 from "./images/apartment2/FullSizeRender.JPEG";
+import apartment2_3 from "./images/apartment2/FullSizeRender.JPEG";
+import apartment2_4 from "./images/apartment2/FullSizeRender.JPEG";
 
 export const assets = {
   logo,
@@ -28,6 +49,15 @@ export const assets = {
   menu_icon,
   star_icon,
   location_icon,
+  bed_icon,
+  bicycle_icon,
+  fireplace_icon,
+  kitchen_icon,
+  garden_icon,
+  bath_icon,
+  television_icon,
+  parking_icon,
+  outdoor_icon,
   header_img,
   brand_img,
   project_img_1,
@@ -36,11 +66,7 @@ export const assets = {
   project_img_4,
   left_arrow,
   right_arrow,
-  penzion_logo,
-  penzion_title_1,
-  penzion_title_2,
-  apartment_title_1,
-  apartment_title_2
+  penzion_logo
 };
 
 export const projectsData = [
@@ -99,27 +125,23 @@ export const testimonialsData = [
 
 export const accommodations = [
   {
-    image: penzion_title_1,
     translationKey: "Accommodation.Penzion1",
     slug: "guesthouse",
-    images: [penzion_title_1],
+    images: [penzion1_1, penzion1_2, penzion1_3, penzion1_4],
   },
   {
-    image: penzion_title_2,
     translationKey: "Accommodation.Penzion2",
     slug: "cottage",
-    images: [penzion_title_2],
+    images: [penzion2_1, penzion2_2, penzion2_3, penzion2_4],
   },
   {
-    image: apartment_title_1,
     translationKey: "Accommodation.Apartment1",
     slug: "garden-view-apartment",
-    images: [apartment_title_1],
+    images: [apartment1_1, apartment1_2, apartment1_3, apartment1_4],
   },
   {
-    image: apartment_title_2,
     translationKey: "Accommodation.Apartment2",
     slug: "mountain-view-apartment",
-    images: [apartment_title_2],
+    images: [apartment2_1, apartment2_2, apartment2_3, apartment2_4],
   },
 ];

@@ -19,7 +19,7 @@ export default function About() {
         title2={t("About.Title2")}
         slogan={t("About.Slogan")}
       />
-      <div className="flex flex-col md:flex-row items-center md:items-start md:gap-20">
+      <div className="flex flex-col md:flex-row items-center md:items-end md:gap-24">
         <img src={assets.brand_img} alt="Brand Image" className="w-full sm:w-1/2 max-w-lg" />
         <div className="flex flex-col items-center md:items-start mt-10 text-gray-600">
           <div className="grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28">

@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <div className="absolute top-0 left-0 w-full z-10 bg-gradient-to-b from-black/80 to-transparent">
       {/* <div className="absolute top-0 left-0 w-full z-10"> */}
-      <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
+      <div className="max-w-screen-2xl mx-auto flex justify-between items-center py-4 px-4 sm:px-6 md:px-8 lg:px-10 bg-transparent">
         <Link to="/#header" className="flex items-center">
           <img className="w-32 md:w-40" src={assets.penzion_logo} alt="Logo" />
         </Link>
