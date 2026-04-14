@@ -4,6 +4,8 @@ import { useTranslation } from "react-i18next";
 import { Star } from "lucide-react";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
+import PricingGuesthouse from "../components/ui/PricingGuesthouse";
+import PricingApartment from "../components/ui/PricingApartment";
 
 const AccommodationDetailPage = () => {
   const { slug } = useParams();
@@ -160,7 +162,7 @@ const AccommodationDetailPage = () => {
               </div>
 
               {/* Features */}
-              <div className="pt-8pb-8">
+              <div className="pb-8">
                 <h2 className="mb-4 text-xl font-semibold text-gray-900 md:text-2xl">
                   {t("Accommodation.Title4")}
                 </h2>
@@ -181,50 +183,14 @@ const AccommodationDetailPage = () => {
 
             {/* Pricing - right side */}
             <div className="lg:col-span-1">
-              <div className="rounded-3xl border border-gray-100 bg-white p-6 shadow-sm lg:sticky lg:top-28">
-                <h3 className="mb-6 text-2xl font-semibold text-gray-900">
-                  Cenník
-                </h3>
-
-                <div className="mb-8 space-y-4 text-base text-gray-700">
-                  <div className="border-b border-gray-100 pb-4">
-                    <p className="mb-2 font-medium text-gray-900">Celoročne</p>
-                    <p>Dospelá osoba: 22€ / noc (pri 2 a viac nocí)</p>
-                    <p>Dospelá osoba: 25€ / noc (pri 1 noci)</p>
-                    <p>Osoba na prístelku: 20€ / noc</p>
-                    <p>Dieťa do 3 rokov zdarma, bez nároku na lôžko</p>
-                    <p>Detská postieľka: 10€ / pobyt</p>
-                  </div>
-
-                  <div className="border-b border-gray-100 pb-4">
-                    <p className="mb-2 font-medium text-gray-900">
-                      Celý objekt
-                    </p>
-                    <p>13 lôžok: 280€ / noc</p>
-                  </div>
-
-                  <div className="border-b border-gray-100 pb-4">
-                    <p className="mb-2 font-medium text-gray-900">Silvester</p>
-                    <p>Prenajíma sa v celku</p>
-                    <p>Maximálne 17 ľudí: 330€ / noc</p>
-                    <p>Minimálne 5 nocí</p>
-                  </div>
-
-                  <div>
-                    <p className="mb-2 font-medium text-gray-900">
-                      Rekreačný poplatok
-                    </p>
-                    <p>1,50€ / osoba / noc od 3 rokov</p>
-                  </div>
-                </div>
-
-                <Link
-                  to="/#contact"
-                  className="inline-block w-full rounded-2xl bg-lime-700 px-6 py-3 text-center text-white transition hover:bg-lime-800"
-                >
-                  Nezáväzný dopyt
-                </Link>
-              </div>
+              {(accommodation.slug === "guesthouse" ||
+                accommodation.slug === "cottage") && (
+                <PricingGuesthouse accommodation={accommodation} />
+              )}
+              {(accommodation.slug === "garden-view-apartment" ||
+                accommodation.slug === "mountain-view-apartment") && (
+                <PricingApartment accommodation={accommodation} />
+              )}
             </div>
           </div>
 

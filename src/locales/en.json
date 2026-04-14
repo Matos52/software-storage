@@ -28,7 +28,18 @@
     "Title3": "About this space",
     "Title4": "Equipment",
     "Title5": "Gallery",
-    "Tags": ["Cozy rooms", "Private bathrooms", "Equipped kitchen", "Fireplace", "Television", "Outdoor seating", "Garden", "Private parking", "Bycicle storage", "Great location"],
+    "Tags": [
+      "Cozy rooms",
+      "Private bathrooms",
+      "Equipped kitchen",
+      "Fireplace",
+      "Television",
+      "Outdoor seating",
+      "Garden",
+      "Private parking",
+      "Bycicle storage",
+      "Great location"
+    ],
     "Slogan": "Comfortable and fully equipped rooms for your pleasant and relaxing stay",
     "Location": "Červený Kláštor",
     "Penzion1": {
@@ -41,10 +52,26 @@
       "Rooms": "6 private rooms",
       "Beds": "13 beds",
       "Extra Beds": "5 extra beds",
-
-      "Tags": {
-        
-      }
+      "Pricing": [
+        "Pricing",
+        "Year-round",
+        "Adult – 2+ nights",
+        "€22 / night",
+        "Adult – 1 night",
+        "€25 / night",
+        "Extra bed",
+        "€20 / night",
+        "Entire property",
+        "13 beds",
+        "€280 / night",
+        "New Year's Eve",
+        "Entire property – min. 5 nights",
+        "€330 / night",
+        "Local tax",
+        "€1.50 / person / night",
+        "Children under 3 stay free. Baby cot: €10 / stay.",
+        "Inquiry"
+      ]
     },
     "Penzion2": {
       "Title": "Cottage Under the Three Crowns",
@@ -55,7 +82,27 @@
       "Desc3": "Right next to the cottage, there is an outdoor seating area with a fireplace, while behind the cottage guests can make use of a grill area with additional seating. The property also includes a spacious meadow and a children’s playground, making it especially suitable for families. Free WiFi is available throughout the entire cottage.",
       "Rooms": "4 private rooms",
       "Beds": "11 beds",
-      "Extra Beds": "1 extra bed"
+      "Extra Beds": "1 extra bed",
+      "Pricing": [
+        "Pricing",
+        "Year-round",
+        "Adult – 2+ nights",
+        "€22 / night",
+        "Adult – 1 night",
+        "€25 / night",
+        "Extra bed",
+        "€20 / night",
+        "Entire property",
+        "13 beds",
+        "€280 / night",
+        "New Year's Eve",
+        "Entire property – min. 5 nights",
+        "€330 / night",
+        "Local tax",
+        "€1.50 / person / night",
+        "Children under 3 stay free. Baby cot: €10 / stay.",
+        "Inquiry"
+      ]
     },
     "Apartment1": {
       "Title": "Garden View Apartment",
@@ -66,7 +113,24 @@
       "Desc3": "Free WiFi is available throughout the apartment to ensure a comfortable stay even during longer visits. Thanks to its garden-facing location, the apartment provides a quiet and relaxing environment in the beautiful surroundings of the Pieniny region.",
       "Rooms": "Private apartment",
       "Beds": "2 beds",
-      "Extra Beds": "2 extra beds"
+      "Extra Beds": "2 extra beds",
+      "Pricing": [
+        "Pricing",
+        "Year-round",
+        "2 persons",
+        "€60 / night",
+        "3 persons",
+        "€70 / night",
+        "4 persons",
+        "€80 / night",
+        "New Year's Eve",
+        "1–4 persons · min. 5 nights",
+        "€80 / night",
+        "Local tax",
+        "€1.50 / person / night",
+        "Children under 3 stay free.",
+        "Inquiry"
+      ]
     },
     "Apartment2": {
       "Title": "Mountain View Apartment",
@@ -77,7 +141,24 @@
       "Desc3": "Free WiFi is available throughout the apartment. Thanks to its peaceful location and beautiful view of the mountains, the apartment provides an ideal place to relax in the natural surroundings of the Pieniny National Park.",
       "Rooms": "Private apartment",
       "Beds": "2 beds",
-      "Extra Beds": "2 extra beds"
+      "Extra Beds": "2 extra beds",
+      "Pricing": [
+        "Pricing",
+        "Year-round",
+        "2 persons",
+        "€60 / night",
+        "3 persons",
+        "€70 / night",
+        "4 persons",
+        "€80 / night",
+        "New Year's Eve",
+        "1–4 persons - min. 5 nights",
+        "€80 / night",
+        "Local tax",
+        "€1.50 / person / night",
+        "Children under 3 stay free.",
+        "Inquiry"
+      ]
     }
   },
   "Testimonials": {

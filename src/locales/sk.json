@@ -28,7 +28,18 @@
     "Title3": "O ubytovaní",
     "Title4": "Vybavenie",
     "Title5": "Galéria",
-    "Tags": ["Útulné izby", "Súkromná kúpeľne", "Vybavená kuchyňa", "Miestnosť s krbom", "TV", "Vonjšie posedenie", "Záhrada", "Parkovanie", "Úschovňa bicyklov", "Výborná poloha"],
+    "Tags": [
+      "Útulné izby",
+      "Súkromná kúpeľne",
+      "Vybavená kuchyňa",
+      "Miestnosť s krbom",
+      "TV",
+      "Vonjšie posedenie",
+      "Záhrada",
+      "Parkovanie",
+      "Úschovňa bicyklov",
+      "Výborná poloha"
+    ],
     "Slogan": "Komfortné a plne vybavené izby pre váš príjemný oddych.",
     "Location": "Červený Kláštor",
     "Penzion1": {
@@ -40,7 +51,27 @@
       "Desc3": "Priamo pri penzióne sa nachádza kryté vonkajšie posedenie s krbom. Samozrejmosťou je WiFi pripojenie dostupné v celom objekte, ktoré zabezpečuje pohodlný pobyt aj počas dlhších návštev.",
       "Rooms": "6 samostatných izieb",
       "Beds": "13 lôžok",
-      "Extra Beds": "5 prísteliek"
+      "Extra Beds": "5 prísteliek",
+      "Pricing": [
+        "Cenník",
+        "Celoročne",
+        "Dospelý – 2+ nocí",
+        "22€ / noc",
+        "Dospelý – 1 noc",
+        "25€ / noc",
+        "Prístelka",
+        "20€ / noc",
+        "Celý objekt",
+        "13 lôžok",
+        "280€ / noc",
+        "Silvester",
+        "Celý objekt - min. 5 nocí",
+        "330€ / noc",
+        "Poplatok obci",
+        "1,50€ / osoba / noc",
+        "Dieťa do 3 rokov zdarma. Detská postieľka: 10€ / pobyt.",
+        "Nezáväzný dopyt"
+      ]
     },
     "Penzion2": {
       "Title": "Chalupa pod Troma Korunami",
@@ -51,7 +82,27 @@
       "Desc3": "Priamo pri chalupe sa nachádza vonkajšie posedenie s krbom a za objektom je pripravený aj gril s ďalším posedením. Súčasťou areálu je priestranná lúka a detské ihrisko, ktoré ocenia najmä rodiny s deťmi. Samozrejmosťou je WiFi pripojenie dostupné v celom objekte.",
       "Rooms": "4 samostatné izby",
       "Beds": "11 lôžok",
-      "Extra Beds": "1 prístelka"
+      "Extra Beds": "1 prístelka",
+      "Pricing": [
+        "Cenník",
+        "Celoročne",
+        "Dospelý – 2+ nocí",
+        "22€ / noc",
+        "Dospelý – 1 noc",
+        "25€ / noc",
+        "Prístelka",
+        "20€ / noc",
+        "Celý objekt",
+        "13 lôžok",
+        "280€ / noc",
+        "Silvester",
+        "Celý objekt - min. 5 nocí",
+        "330€ / noc",
+        "Poplatok obci",
+        "1,50€ / osoba / noc",
+        "Dieťa do 3 rokov zdarma. Detská postieľka: 10€ / pobyt.",
+        "Nezáväzný dopyt"
+      ]
     },
     "Apartment1": {
       "Title": "Apartmán s výhľadom do záhrady",
@@ -62,7 +113,24 @@
       "Desc3": "Samozrejmosťou je WiFi pripojenie dostupné v celom apartmáne, aby bol váš pobyt pohodlný aj počas dlhších návštev. Vďaka polohe s výhľadom do záhrady je apartmán ideálnym miestom na pokojný oddych v príjemnom prostredí Pienin.",
       "Rooms": "Samostatný apartmán",
       "Beds": "2 lôžka",
-      "Extra Beds": "2 prístelky"
+      "Extra Beds": "2 prístelky",
+      "Pricing": [
+        "Cenník",
+        "Celoročne",
+        "2 osoby",
+        "60€ / noc",
+        "3 osoby",
+        "70€ / noc",
+        "4 osoby",
+        "80€ / noc",
+        "Silvester",
+        "1-4 osoby - min. 5 nocí",
+        "80€ / noc",
+        "Poplatok obci",
+        "1,50€ / osoba / noc",
+        "Dieťa do 3 rokov zdarma.",
+        "Nezáväzný dopyt"
+      ]
     },
     "Apartment2": {
       "Title": "Apartmán s výhľadom na hory",
@@ -73,7 +141,24 @@
       "Desc3": "Samozrejmosťou je WiFi pripojenie dostupné v celom apartmáne. Vďaka pokojnej polohe a krásnemu výhľadu na hory je apartmán ideálnym miestom na oddych v prírode Pieninského národného parku.",
       "Rooms": "Samostatný apartmán",
       "Beds": "2 lôžka",
-      "Extra Beds": "2 prístelky"
+      "Extra Beds": "2 prístelky",
+      "Pricing": [
+        "Cenník",
+        "Celoročne",
+        "2 osoby",
+        "60€ / noc",
+        "3 osoby",
+        "70€ / noc",
+        "4 osoby",
+        "80€ / noc",
+        "Silvester",
+        "1-4 osoby - min. 5 nocí",
+        "80€ / noc",
+        "Poplatok obci",
+        "1,50€ / osoba / noc",
+        "Dieťa do 3 rokov zdarma.",
+        "Nezáväzný dopyt"
+      ]
     }
   },
   "Testimonials": {
