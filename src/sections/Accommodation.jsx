@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { accommodations, assets, projectsData } from "../assets/assets";
+import { accommodations } from "../assets/assets";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import SectionTitle from "../components/ui/SectionTitle";
@@ -7,34 +6,6 @@ import AccommodationCard from "../components/ui/AccommodationCard";
 
 export default function Accommodation() {
   const { t } = useTranslation();
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [cardsToShow, setCardsToShow] = useState(1);
-
-  useEffect(() => {
-    function updateCardsToShow() {
-      if (window.innerWidth >= 1024) {
-        setCardsToShow(projectsData.length);
-      } else {
-        setCardsToShow(1);
-      }
-    }
-
-    updateCardsToShow();
-
-    window.addEventListener("resize", updateCardsToShow);
-
-    return () => window.removeEventListener("resize", updateCardsToShow);
-  }, []);
-
-  function nextProject() {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % projectsData.length);
-  }
-
-  function prevProject() {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? projectsData.length - 1 : prevIndex - 1,
-    );
-  }
 
   return (
     <motion.div
@@ -50,26 +21,8 @@ export default function Accommodation() {
         slogan={t("Accommodation.Slogan")}
       />
 
-      {/* slider buttons */}
-      <div className="flex justify-end items-center mb-8">
-        <button
-          className="p-3 bg-gray-200 rounded mr-2"
-          aria-label="Previous Project"
-          onClick={prevProject}
-        >
-          <img src={assets.left_arrow} alt="Previous" />
-        </button>
-        <button
-          className="p-3 bg-gray-200 rounded mr-2"
-          aria-label="Next Project"
-          onClick={nextProject}
-        >
-          <img src={assets.right_arrow} alt="Next" />
-        </button>
-      </div>
-
-      {/* project slider container */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {/* accommodations container */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {accommodations.map((item) => (
           <AccommodationCard
             key={item.slug}

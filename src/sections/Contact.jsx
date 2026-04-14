@@ -109,7 +109,7 @@ export default function Contact() {
           ></textarea>
         </div>
 
-        <button className="bg-lime-700 hover:bg-lime-800 text-white px-8 py-2 rounded-md mt-6 transition">
+        <button className="bg-lime-700 hover:bg-lime-800 text-white px-8 py-3 rounded-md mt-6 transition">
           {result ? result : t("Contact.Button")}
         </button>
       </form>

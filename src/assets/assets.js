@@ -26,21 +26,21 @@ import profile_img_2 from "./images/profile_img_2.png";
 import profile_img_3 from "./images/profile_img_3.png";
 import penzion_logo from "./images/penzion_logo7.png";
 import penzion1_1 from "./images/penzion1/IMG_1341.JPEG";
-import penzion1_2 from "./images/penzion1/IMG_7178.JPG";
-import penzion1_3 from "./images/penzion1/IMG_7180.JPG";
-import penzion1_4 from "./images/penzion1/IMG_7181.JPG";
+import penzion1_2 from "./images/penzion1/IMG_7180.JPG";
+import penzion1_3 from "./images/penzion1/IMG_7181.JPG";
+import penzion1_4 from "./images/others/IMG_0740.JPEG";
 import penzion2_1 from "./images/penzion2/IMG_1325.JPEG";
-import penzion2_2 from "./images/penzion2/IMG_1325.JPEG";
-import penzion2_3 from "./images/penzion2/IMG_1325.JPEG";
-import penzion2_4 from "./images/penzion2/IMG_1325.JPEG";
+import penzion2_2 from "./images/penzion2/IMG_3484.JPG";
+import penzion2_3 from "./images/penzion2/IMG_1326.JPEG";
+import penzion2_4 from "./images/others/IMG_1302.JPEG";
 import apartment1_1 from "./images/apartment1/IMG_8573.JPEG";
-import apartment1_2 from "./images/apartment1/IMG_8573.JPEG";
-import apartment1_3 from "./images/apartment1/IMG_8573.JPEG";
-import apartment1_4 from "./images/apartment1/IMG_8573.JPEG";
+import apartment1_2 from "./images/apartment1/IMG_1830.JPG";
+import apartment1_3 from "./images/others/IMG_1286.JPEG";
+import apartment1_4 from "./images/others/IMG_0741.JPEG";
 import apartment2_1 from "./images/apartment2/FullSizeRender.JPEG";
-import apartment2_2 from "./images/apartment2/FullSizeRender.JPEG";
-import apartment2_3 from "./images/apartment2/FullSizeRender.JPEG";
-import apartment2_4 from "./images/apartment2/FullSizeRender.JPEG";
+import apartment2_2 from "./images/apartment2/FullSizeRender-1.JPEG";
+import apartment2_3 from "./images/apartment2/FullSizeRender-2.JPEG";
+import apartment2_4 from "./images/others/IMG_8812.JPEG";
 
 export const assets = {
   logo,
@@ -68,33 +68,6 @@ export const assets = {
   right_arrow,
   penzion_logo
 };
-
-export const projectsData = [
-  {
-    title: "Skyline Haven",
-    price: "$2,50,000",
-    location: "California",
-    image: project_img_1,
-  },
-  {
-    title: "Vista Verde",
-    price: "$2,50,000",
-    location: "San Francisco",
-    image: project_img_2,
-  },
-  {
-    title: "Serenity Suites",
-    price: "$2,50,000",
-    location: "Chicago",
-    image: project_img_3,
-  },
-  {
-    title: "Central Square",
-    price: "$2,50,000",
-    location: "Los Angeles",
-    image: project_img_4,
-  },
-];
 
 export const testimonialsData = [
   {

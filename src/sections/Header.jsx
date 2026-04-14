@@ -1,6 +1,7 @@
 import Navbar from "../components/navigation/Navbar";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import Button from "../components/ui/Button";
 
 export default function Header() {
   const { t } = useTranslation();
@@ -8,7 +9,7 @@ export default function Header() {
   return (
     <div
       className="min-h-screen bg-cover bg-center flex items-center w-full overflow-hidden"
-      style={{ backgroundImage: "url('/pieniny2.png')" }}
+      style={{ backgroundImage: "url('/pieniny3.png')" }}
       id="Header"
     >
       <motion.div
@@ -28,12 +29,7 @@ export default function Header() {
           >
             {t("Header.Accommodation")}
           </a>
-          <a
-            href="#contact"
-            className="bg-lime-700 hover:bg-lime-800 text-white px-6 py-3 rounded-md transition"
-          >
-            {t("Header.Contact Us")}
-          </a>
+          <Button title={t("Header.Contact Us")} href="#contact" />
         </div>
       </motion.div>
     </div>

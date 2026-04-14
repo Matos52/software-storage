@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { assets } from "../assets/assets";
 import { motion } from "framer-motion";
 import SectionTitle from "../components/ui/SectionTitle";
+import Button from "../components/ui/Button";
 
 export default function About() {
   const { t } = useTranslation();
@@ -21,7 +22,7 @@ export default function About() {
       />
       <div className="flex flex-col md:flex-row items-center md:items-end md:gap-24">
         <img src={assets.brand_img} alt="Brand Image" className="w-full sm:w-1/2 max-w-lg" />
-        <div className="flex flex-col items-center md:items-start mt-10 text-gray-600">
+        <div className="flex flex-col items-center md:items-start mt-10 text-gray-700">
           <div className="grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28">
             <div>
               <p className="text-4xl font-medium text-gray-800">2</p>
@@ -41,9 +42,10 @@ export default function About() {
             </div>
           </div>
           <p className="my-10 max-w-lg text-justify">{t("About.Description")}</p>
-          <a href="#accommodation" className="bg-lime-700 hover:bg-lime-800 text-white px-6 py-2 rounded-md transition">
-            {t("About.Learn more")}
-          </a>
+          <Button 
+            title={t("About.Learn more")}
+            href="#accommodation"
+          />
         </div>
       </div>
     </motion.div>

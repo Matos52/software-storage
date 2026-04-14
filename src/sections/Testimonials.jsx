@@ -40,7 +40,7 @@ export default function Testimonials() {
                 <img key={index} src={assets.star_icon} alt="Star Icon" />
               ))}
             </div>
-            <p className="text-gray-600">{testimonial.text}</p>
+            <p className="text-gray-700">{testimonial.text}</p>
           </div>
         ))}
       </div>

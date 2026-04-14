@@ -25,6 +25,10 @@
   "Accommodation": {
     "Title1": "Naše",
     "Title2": "penzióny a apartmány",
+    "Title3": "O ubytovaní",
+    "Title4": "Vybavenie",
+    "Title5": "Galéria",
+    "Tags": ["Útulné izby", "Súkromná kúpeľne", "Vybavená kuchyňa", "Miestnosť s krbom", "TV", "Vonjšie posedenie", "Záhrada", "Parkovanie", "Úschovňa bicyklov", "Výborná poloha"],
     "Slogan": "Komfortné a plne vybavené izby pre váš príjemný oddych.",
     "Location": "Červený Kláštor",
     "Penzion1": {

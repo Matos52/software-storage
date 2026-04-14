@@ -25,6 +25,10 @@
   "Accommodation": {
     "Title1": "Our",
     "Title2": "Guesthouses and Apartments",
+    "Title3": "About this space",
+    "Title4": "Equipment",
+    "Title5": "Gallery",
+    "Tags": ["Cozy rooms", "Private bathrooms", "Equipped kitchen", "Fireplace", "Television", "Outdoor seating", "Garden", "Private parking", "Bycicle storage", "Great location"],
     "Slogan": "Comfortable and fully equipped rooms for your pleasant and relaxing stay",
     "Location": "Červený Kláštor",
     "Penzion1": {
@@ -36,7 +40,11 @@
       "Desc3": "Right next to the guesthouse, there is an outdoor seating area with a fireplace. Free WiFi is available throughout the entire property, ensuring a comfortable stay even during longer visits.",
       "Rooms": "6 private rooms",
       "Beds": "13 beds",
-      "Extra Beds": "5 extra beds"
+      "Extra Beds": "5 extra beds",
+
+      "Tags": {
+        
+      }
     },
     "Penzion2": {
       "Title": "Cottage Under the Three Crowns",
