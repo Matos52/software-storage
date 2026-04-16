@@ -1,7 +1,8 @@
 import logo from "./icons/general/logo.svg";
 import logo_dark from "./icons/general/logo_dark.svg";
 import cross_icon from "./icons/general/cross_icon.svg";
-import menu_icon from "./icons/general/menu_icon.svg";
+import menu_icon_white from "./icons/general/menu_logo_white.svg";
+import menu_icon_gray from "./icons/general/menu_logo_gray.svg";
 import star_icon from "./icons/general/star_icon.svg";
 import left_arrow from "./icons/general/left_arrow.svg";
 import right_arrow from "./icons/general/right_arrow.svg";
@@ -24,7 +25,8 @@ import project_img_4 from "./images/project_img_4.jpg";
 import profile_img_1 from "./images/profile_img_1.png";
 import profile_img_2 from "./images/profile_img_2.png";
 import profile_img_3 from "./images/profile_img_3.png";
-import penzion_logo from "./images/penzion_logo7.png";
+import logo_white from "./images/logo_white.png";
+import logo_black from "./images/logo_grey.png";
 import penzion1_1 from "./images/penzion1/IMG_1341.JPEG";
 import penzion1_2 from "./images/penzion1/IMG_7180.JPG";
 import penzion1_3 from "./images/penzion1/IMG_7181.JPG";
@@ -46,7 +48,8 @@ export const assets = {
   logo,
   logo_dark,
   cross_icon,
-  menu_icon,
+  menu_icon_white,
+  menu_icon_gray,
   star_icon,
   location_icon,
   bed_icon,
@@ -66,7 +69,8 @@ export const assets = {
   project_img_4,
   left_arrow,
   right_arrow,
-  penzion_logo
+  logo_white,
+  logo_black
 };
 
 export const testimonialsData = [

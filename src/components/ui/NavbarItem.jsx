@@ -1,13 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const NavbarItem = ({ to, title }) => {
+const NavbarItem = ({ to, title, darkNavbar }) => {
   return (
     <Link to={to} className="group relative">
-      <span className="transition-colors duration-300 group-hover:text-gray-300">
+      <span
+        className={`transition-colors duration-300 group-hover:text-gray-300 ${darkNavbar ? "group-hover:text-gray-700" : "group-hover:text-gray-300"}`}
+      >
         {title}
       </span>
-      <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
+      <span
+        className={`absolute left-0 -bottom-1 h-[2px] w-0 bg-white transition-all duration-300 group-hover:w-full ${darkNavbar ? "bg-black" : "bg-white"}`}
+      ></span>
     </Link>
   );
 };

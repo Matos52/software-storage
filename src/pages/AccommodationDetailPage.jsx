@@ -188,8 +188,8 @@ const AccommodationDetailPage = () => {
                     className="mt-3 text-sm font-medium hover:underline"
                   >
                     {expanded
-                      ? t("Accommodation.ShowLess")
-                      : t("Accommodation.ShowMore")}
+                      ? t("Accommodation.Show less")
+                      : t("Accommodation.Show more")}
                   </button>
                 </div>
               </div>
@@ -243,10 +243,10 @@ const AccommodationDetailPage = () => {
                   accommodation.slug === "mountain-view-apartment") && (
                   <PricingApartment accommodation={accommodation} />
                 )}
-                {/* Other options */}
+                {/* Other accommodations */}
                 <div className="rounded-3xl border border-gray-100 bg-white p-6 shadow-sm">
                   <h2 className="mb-6 text-xl md:text-2xl font-semibold text-gray-900">
-                    Other options
+                    {t("Accommodation.Other accommodations")}
                   </h2>
                   {/* accommodations container */}
                   <div className="grid grid-cols-1 gap-4">
