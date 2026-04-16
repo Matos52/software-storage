@@ -7,10 +7,11 @@ import "react-photo-view/dist/react-photo-view.css";
 import PricingGuesthouse from "../components/ui/PricingGuesthouse";
 import PricingApartment from "../components/ui/PricingApartment";
 import AccommodationCompactCard from "../components/ui/AccommodationCompactCard";
-import SectionTitle from "../components/ui/SectionTitle";
+import { useState } from "react";
 
 const AccommodationDetailPage = () => {
   const { slug } = useParams();
+  const [expanded, setExpanded] = useState(false);
   const { t } = useTranslation();
 
   const accommodation = accommodations.find((item) => item.slug === slug);
@@ -157,10 +158,39 @@ const AccommodationDetailPage = () => {
                   {t("Accommodation.Title3")}
                 </h2>
 
-                <div className="space-y-4 text-left leading-7 text-gray-700 md:text-justify">
+                {/* Desktop */}
+                <div className="hidden space-y-4 text-justify leading-7 text-gray-700 md:block">
                   <p>{t(`${accommodation.translationKey}.Desc1`)}</p>
                   <p>{t(`${accommodation.translationKey}.Desc2`)}</p>
                   <p>{t(`${accommodation.translationKey}.Desc3`)}</p>
+                </div>
+
+                {/* Mobile */}
+                <div className="md:hidden">
+                  <div className="relative">
+                    <div
+                      className={`text-justify leading-7 space-y-4 text-gray-700 ${
+                        expanded ? "" : "line-clamp-6"
+                      }`}
+                    >
+                      <p>{t(`${accommodation.translationKey}.Desc1`)}</p>
+                      <p>{t(`${accommodation.translationKey}.Desc2`)}</p>
+                      <p>{t(`${accommodation.translationKey}.Desc3`)}</p>
+                    </div>
+
+                    {!expanded && (
+                      <div className="pointer-events-none absolute bottom-0 left-0 h-16 w-full bg-gradient-to-t from-gray-50 to-transparent" />
+                    )}
+                  </div>
+
+                  <button
+                    onClick={() => setExpanded(!expanded)}
+                    className="mt-3 text-sm font-medium hover:underline"
+                  >
+                    {expanded
+                      ? t("Accommodation.ShowLess")
+                      : t("Accommodation.ShowMore")}
+                  </button>
                 </div>
               </div>
 
