@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { accommodations, assets } from "../assets/assets";
 import { useTranslation } from "react-i18next";
 import { Star } from "lucide-react";
@@ -6,6 +6,8 @@ import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
 import PricingGuesthouse from "../components/ui/PricingGuesthouse";
 import PricingApartment from "../components/ui/PricingApartment";
+import AccommodationCompactCard from "../components/ui/AccommodationCompactCard";
+import SectionTitle from "../components/ui/SectionTitle";
 
 const AccommodationDetailPage = () => {
   const { slug } = useParams();
@@ -72,35 +74,6 @@ const AccommodationDetailPage = () => {
             {t(`${accommodation.translationKey}.Title`)}
           </h1>
 
-          <div className="mt-3 flex flex-col gap-2 text-sm text-gray-500 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3 md:text-base">
-            <div className="flex items-center gap-2">
-              <img
-                src={assets.location_icon}
-                alt="location"
-                className="h-4 w-4"
-              />
-              <span>{t("Accommodation.Location")}</span>
-            </div>
-
-            <span className="hidden text-gray-300 sm:inline">|</span>
-
-            <span>{t(`${accommodation.translationKey}.Rooms`)}</span>
-
-            <span className="hidden text-gray-300 sm:inline">|</span>
-
-            <span>
-              {t(`${accommodation.translationKey}.Beds`)} +{" "}
-              {t(`${accommodation.translationKey}.Extra Beds`)}
-            </span>
-
-            <span className="hidden text-gray-300 md:inline">|</span>
-
-            <div className="flex items-center gap-2">
-              <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-              <span>4.5</span>
-            </div>
-          </div>
-
           {/* Hero gallery */}
           <div className="mt-6 grid grid-cols-1 gap-3 lg:grid-cols-8 lg:auto-rows-[180px]">
             {galleryImages[0] && (
@@ -144,12 +117,42 @@ const AccommodationDetailPage = () => {
             )}
           </div>
 
-          {/* Description, Features + Pricing */}
+          {/* Info row */}
+          <div className="mt-5 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-gray-500 md:text-base">
+            <div className="flex items-center gap-2">
+              <img
+                src={assets.location_icon}
+                alt="location"
+                className="h-4 w-4"
+              />
+              <span>{t("Accommodation.Location")}</span>
+            </div>
+
+            <span className="hidden text-gray-300 sm:inline">|</span>
+
+            <span>{t(`${accommodation.translationKey}.Rooms`)}</span>
+
+            <span className="hidden text-gray-300 sm:inline">|</span>
+
+            <span>
+              {t(`${accommodation.translationKey}.Beds`)} +{" "}
+              {t(`${accommodation.translationKey}.Extra Beds`)}
+            </span>
+
+            <span className="hidden text-gray-300 md:inline">|</span>
+
+            <div className="flex items-center gap-2">
+              <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+              <span>4.5</span>
+            </div>
+          </div>
+
+          {/* Description, Features, Gallery + Pricing, Other Options */}
           <div className="mt-10 grid grid-cols-1 gap-8 items-start lg:grid-cols-3">
             {/* Left side */}
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-2 space-y-10">
               {/* Description */}
-              <div className="pb-8">
+              <div>
                 <h2 className="mb-4 text-xl font-semibold text-gray-900 md:text-2xl">
                   {t("Accommodation.Title3")}
                 </h2>
@@ -162,16 +165,16 @@ const AccommodationDetailPage = () => {
               </div>
 
               {/* Features */}
-              <div className="pb-8">
+              <div>
                 <h2 className="mb-4 text-xl font-semibold text-gray-900 md:text-2xl">
                   {t("Accommodation.Title4")}
                 </h2>
 
-                <div className="grid grid-cols-2 gap-3 md:grid-cols-5">
+                <div className="grid grid-cols-4 gap-3 sm:grid-cols-3 lg:grid-cols-5">
                   {features.map((feature, index) => (
                     <div
                       key={index}
-                      className="flex flex-col items-center justify-center gap-1 rounded-2xl border border-gray-100 bg-white p-4 text-center"
+                      className="flex flex-col text-sm md:text-base items-center justify-center gap-1 rounded-2xl border border-gray-100 bg-white p-2 md:p-4 text-center text-gray-700"
                     >
                       <img src={feature.icon} alt={feature.alt} />
                       <span>{feature.label}</span>
@@ -179,38 +182,59 @@ const AccommodationDetailPage = () => {
                   ))}
                 </div>
               </div>
+              {/* Gallery */}
+              <div className="pb-2">
+                <h2 className="mb-4 text-xl font-semibold text-gray-900 md:text-2xl">
+                  {t("Accommodation.Title5")}
+                </h2>
+                <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
+                  {galleryImages.map((img, index) => (
+                    <PhotoView key={index} src={img}>
+                      <img
+                        src={img}
+                        alt={`Gallery image ${index + 1}`}
+                        className="h-36 sm:h-40 md:h-44 w-full cursor-pointer rounded-xl object-cover transition hover:opacity-90"
+                      />
+                    </PhotoView>
+                  ))}
+                </div>
+              </div>
             </div>
 
-            {/* Pricing - right side */}
+            {/* Right side */}
             <div className="lg:col-span-1">
-              {(accommodation.slug === "guesthouse" ||
-                accommodation.slug === "cottage") && (
-                <PricingGuesthouse accommodation={accommodation} />
-              )}
-              {(accommodation.slug === "garden-view-apartment" ||
-                accommodation.slug === "mountain-view-apartment") && (
-                <PricingApartment accommodation={accommodation} />
-              )}
-            </div>
-          </div>
-
-          {/* Gallery */}
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-            <div className="lg:col-span-2">
-              <h2 className="mb-4 text-xl font-semibold text-gray-900 md:text-2xl">
-                {t("Accommodation.Title5")}
-              </h2>
-
-              <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
-                {galleryImages.map((img, index) => (
-                  <PhotoView key={index} src={img}>
-                    <img
-                      src={img}
-                      alt={`Gallery image ${index + 1}`}
-                      className="h-48 w-full cursor-pointer rounded-xl object-cover transition hover:opacity-90"
-                    />
-                  </PhotoView>
-                ))}
+              {/* Pricing */}
+              <div className="space-y-6 lg:sticky lg:top-28">
+                {(accommodation.slug === "guesthouse" ||
+                  accommodation.slug === "cottage") && (
+                  <PricingGuesthouse accommodation={accommodation} />
+                )}
+                {(accommodation.slug === "garden-view-apartment" ||
+                  accommodation.slug === "mountain-view-apartment") && (
+                  <PricingApartment accommodation={accommodation} />
+                )}
+                {/* Other options */}
+                <div className="rounded-3xl border border-gray-100 bg-white p-6 shadow-sm">
+                  <h2 className="mb-6 text-xl md:text-2xl font-semibold text-gray-900">
+                    Other options
+                  </h2>
+                  {/* accommodations container */}
+                  <div className="grid grid-cols-1 gap-4">
+                    {accommodations
+                      .filter((item) => item.slug !== accommodation.slug)
+                      .map((item) => (
+                        <AccommodationCompactCard
+                          key={item.slug}
+                          image={item.images[0]}
+                          title={t(`${item.translationKey}.Title`)}
+                          rooms={t(`${item.translationKey}.Rooms`)}
+                          beds={t(`${item.translationKey}.Beds`)}
+                          extraBeds={t(`${item.translationKey}.Extra Beds`)}
+                          slug={item.slug}
+                        />
+                      ))}
+                  </div>
+                </div>
               </div>
             </div>
           </div>

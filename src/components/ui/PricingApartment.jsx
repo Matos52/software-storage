@@ -5,13 +5,13 @@ const PricingApartment = ({ accommodation }) => {
   const { t } = useTranslation();
 
   return (
-    <div className="rounded-3xl border border-gray-100 bg-white p-6 shadow-sm lg:sticky lg:top-28">
-      <h3 className="mb-6 text-2xl font-semibold text-gray-900">
+    <div className="rounded-3xl border border-gray-100 bg-white p-6 shadow-sm">
+      <h2 className="text-xl md:text-2xl mb-6 font-semibold text-gray-900">
         {t(`${accommodation.translationKey}.Pricing.0`)}
-      </h3>
+      </h2>
 
       <div className="mb-8 space-y-4 text-base text-gray-700">
-        <div className="border-b border-gray-100 pb-4 space-y-3">
+        <div className="space-y-3 border-b border-gray-100 pb-4">
           <p className="mb-1 font-medium text-gray-900">
             {t(`${accommodation.translationKey}.Pricing.1`)}
           </p>
