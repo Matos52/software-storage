@@ -39,7 +39,7 @@ export default function Navbar() {
 
   const desktopNavbarClasses = darkNavbar
     ? "md:fixed md:bg-white/95 md:backdrop-blur-md md:shadow-sm"
-    : "md:absolute md:bg-gradient-to-b from-black/40 to-transparent";
+    : "md:absolute md:bg-gradient-to-b from-black/30 to-transparent";
 
   return (
     <header
@@ -82,9 +82,9 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-3 md:flex">
-          <LanguageSwitcher />
+          <LanguageSwitcher darkNavbar={darkNavbar} />
           <button
-            className={`rounded-full px-8 py-2 transition ${
+            className={`rounded-lg px-8 py-2 transition ${
               darkNavbar
                 ? "bg-lime-700 text-white hover:bg-lime-800"
                 : "bg-white text-black hover:bg-gray-100"
@@ -148,7 +148,7 @@ export default function Navbar() {
           </Link>
 
           <div className="mt-4">
-            <LanguageSwitcher />
+            <LanguageSwitcher darkNavbar={true} />
           </div>
         </div>
       </div>
