@@ -12,7 +12,7 @@ export default function Testimonials() {
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
-      className="container mx-auto py-10 lg:px-32 w-full overflow-hidden"
+      className="container mx-auto p-12 md:p-14 lg:px-32 w-full overflow-hidden"
     >
       <SectionTitle
         title1={t("Testimonials.Title1")}
@@ -24,7 +24,7 @@ export default function Testimonials() {
         {testimonialsData.map((testimonial, index) => (
           <div
             key={index}
-            className="max-w-[340px] border shadow-lg rounded px-8 py-12 text-center"
+            className="max-w-[340px] border shadow-lg rounded px-8 p-12 text-center"
           >
             <img
               className="w-20 h-20 rounded-full mx-auto mb-4"

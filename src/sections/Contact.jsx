@@ -41,7 +41,7 @@ export default function Contact() {
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
-      className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden"
+      className="text-center p-12 md:p-14 lg:px-32 w-full overflow-hidden"
     >
       <SectionTitle
         title1={t("Contact.Title1")}
@@ -50,7 +50,7 @@ export default function Contact() {
       />
 
       <form
-        className="max-w-2xl mx-auto text-gray-600 pt-3 px-4 sm:px-0"
+        className="max-w-2xl mx-auto text-gray-600 px-4 sm:px-0"
         onSubmit={onSubmit}
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

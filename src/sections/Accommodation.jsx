@@ -13,7 +13,7 @@ export default function Accommodation() {
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
-      className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden"
+      className="flex flex-col items-center justify-center container mx-auto p-12 md:p-14 md:px-20 lg:px-32 w-full overflow-hidden"
     >
       <SectionTitle
         title1={t("Accommodation.Title1")}
@@ -22,7 +22,7 @@ export default function Accommodation() {
       />
 
       {/* accommodations container */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20">
         {accommodations.map((item) => (
           <AccommodationCard
             key={item.slug}
