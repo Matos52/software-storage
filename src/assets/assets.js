@@ -6,16 +6,16 @@ import menu_icon_gray from "./icons/general/menu_logo_gray.svg";
 import star_icon from "./icons/general/star_icon.svg";
 import left_arrow from "./icons/general/left_arrow.svg";
 import right_arrow from "./icons/general/right_arrow.svg";
-import location_icon from "./icons/accommodation/map-pin.svg"
-import bed_icon from "./icons/accommodation/bed-double.svg"
-import bicycle_icon from "./icons/accommodation/bicycle.svg"
-import fireplace_icon from "./icons/accommodation/brick-wall-fire.svg"
-import kitchen_icon from "./icons/accommodation/cooking-pot.svg"
-import garden_icon from "./icons/accommodation/potted-plant.svg"
-import bath_icon from "./icons/accommodation/bath.svg"
-import television_icon from "./icons/accommodation/monitor.svg"
-import parking_icon from "./icons/accommodation/square-parking.svg"
-import outdoor_icon from "./icons/accommodation/picnic-table.svg"
+import location_icon from "./icons/accommodation/map-pin.svg";
+import bed_icon from "./icons/accommodation/bed-double.svg";
+import bicycle_icon from "./icons/accommodation/bicycle.svg";
+import fireplace_icon from "./icons/accommodation/brick-wall-fire.svg";
+import kitchen_icon from "./icons/accommodation/cooking-pot.svg";
+import garden_icon from "./icons/accommodation/potted-plant.svg";
+import bath_icon from "./icons/accommodation/bath.svg";
+import television_icon from "./icons/accommodation/monitor.svg";
+import parking_icon from "./icons/accommodation/square-parking.svg";
+import outdoor_icon from "./icons/accommodation/picnic-table.svg";
 import header_img from "./images/header_img.png";
 import brand_img from "./images/brand_img.png";
 import project_img_1 from "./images/project_img_1.jpg";
@@ -70,7 +70,7 @@ export const assets = {
   left_arrow,
   right_arrow,
   logo_white,
-  logo_black
+  logo_black,
 };
 
 export const testimonialsData = [
@@ -122,3 +122,10 @@ export const accommodations = [
     images: [apartment2_1, apartment2_2, apartment2_3, apartment2_4],
   },
 ];
+
+export const allImages = {
+  guesthouse: [penzion1_1, penzion1_2, penzion1_3, penzion1_4],
+  cottage: [penzion2_1, penzion2_2, penzion2_3, penzion2_4],
+  apartment1: [apartment1_1, apartment1_2, apartment1_3, apartment1_4],
+  apartment2: [apartment2_1, apartment2_2, apartment2_3, apartment2_4]
+};

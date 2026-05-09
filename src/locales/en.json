@@ -8,6 +8,7 @@
     "Home": "Home",
     "About": "About",
     "Accommodation": "Accommodation",
+    "Gallery": "Gallery",
     "Testimonials": "Testimonials",
     "Sign Up": "Sign Up"
   },
@@ -167,7 +168,12 @@
   "Gallery": {
     "Title1": "Our",
     "Title2": "Gallery",
-    "Slogan": "Discover the atmosphere of our accommodation"
+    "Slogan": "Discover the atmosphere of our accommodation",
+    "Guesthouse": "Guesthouse",
+    "Cottage": "Cottage",
+    "Apartment1": "Apartment 1",
+    "Apartment2": "Apartment 2",
+    "Exterior": "Exterior"
   },
   "Testimonials": {
     "Title1": "Guest",

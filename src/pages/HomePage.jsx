@@ -3,6 +3,7 @@ import Accommodation from "../sections/Accommodation";
 import Testimonials from "../sections/Testimonials";
 import Contact from "../sections/Contact";
 import About from "../sections/About";
+import Gallery from "../sections/Gallery";
 
 const HomePage = () => {
   return (
@@ -16,10 +17,13 @@ const HomePage = () => {
       <section id="accommodation" className="md:scroll-mt-32">
         <Accommodation />
       </section>
-      <section id="testimonials" className="bg-gray-50 md:scroll-mt-32">
+      <section id="gallery" className="bg-gray-50 md:scroll-mt-32">
+        <Gallery />
+      </section>
+      <section id="testimonials" className="md:scroll-mt-32">
         <Testimonials />
       </section>
-      <section id="contact" className="md:scroll-mt-32">
+      <section id="contact" className="bg-gray-50 md:scroll-mt-32">
         <Contact />
       </section>
     </>

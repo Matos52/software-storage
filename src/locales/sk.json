@@ -8,6 +8,7 @@
     "Home": "Domov",
     "About": "O nás",
     "Accommodation": "Ubytovanie",
+    "Gallery": "Galéria",
     "Testimonials": "Čo o nás hovoria",
     "Sign Up": "Prihlásenie"
   },
@@ -166,8 +167,13 @@
   },
   "Gallery": {
     "Title1": "Naša",
-    "Title2": "Gallery",
-    "Slogan": "Discover the atmosphere of our accommodation"
+    "Title2": "galéria",
+    "Slogan": "Zachyťte atmosféru nášho ubytovania",
+    "Guesthouse": "Penzión",
+    "Cottage": "Chalupa",
+    "Apartment1": "Apartmán 1",
+    "Apartment2": "Apartmán 2",
+    "Exterior": "Exteriér"
   },
   "Testimonials": {
     "Title1": "Recenzie",
