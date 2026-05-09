@@ -33,7 +33,7 @@ export default function LanguageSwitcher({ darkNavbar }) {
         <MenuItem>
           <button
             onClick={() => changeLanguage("sk")}
-            className="block w-full rounded-xl px-3 py-2 text-left text-gray-700 hover:bg-gray-100"
+            className="block w-full rounded-xl px-3 py-2 text-left text-gray-700 hover:bg-gray-100 text-sm md:text-base"
           >
             Slovenčina
           </button>
@@ -42,7 +42,7 @@ export default function LanguageSwitcher({ darkNavbar }) {
         <MenuItem>
           <button
             onClick={() => changeLanguage("en")}
-            className="block w-full rounded-xl px-3 py-2 text-left text-gray-700 hover:bg-gray-100"
+            className="block w-full rounded-xl px-3 py-2 text-left text-gray-700 hover:bg-gray-100 text-sm md:text-base"
           >
             English
           </button>

@@ -164,6 +164,11 @@
       ]
     }
   },
+  "Gallery": {
+    "Title1": "Our",
+    "Title2": "Gallery",
+    "Slogan": "Discover the atmosphere of our accommodation"
+  },
   "Testimonials": {
     "Title1": "Guest",
     "Title2": "Testimonials",
@@ -179,5 +184,10 @@
     "Email": "Email",
     "Message": "Message",
     "Button": "Send Message"
+  }, 
+  "Footer": {
+    "Description": "Relax where the Dunajec River meets the silence of the Pieniny Mountains. Located in the heart of Pieniny National Park in the village of Červený Kláštor, our year-round guesthouse offers cozy cottages and apartments surrounded by beautiful nature. Enjoy peaceful mornings with optional breakfast, pleasant evenings with family and friends by the fireplace or barbecue, and relaxing moments in the garden seating area within the guesthouse grounds.",
+    "Discover": "Discover",
+    "Contact": "Contact"
   }
 }

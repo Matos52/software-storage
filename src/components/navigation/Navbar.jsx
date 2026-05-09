@@ -75,6 +75,11 @@ export default function Navbar() {
             darkNavbar={darkNavbar}
           />
           <NavbarItem
+            to="/#gallery"
+            title={t("Navbar.Gallery")}
+            darkNavbar={darkNavbar}
+          />
+          <NavbarItem
             to="/#testimonials"
             title={t("Navbar.Testimonials")}
             darkNavbar={darkNavbar}
@@ -83,7 +88,7 @@ export default function Navbar() {
 
         <div className="hidden items-center gap-3 md:flex">
           <LanguageSwitcher darkNavbar={darkNavbar} />
-          <button
+          {/* <button
             className={`rounded-lg px-8 py-2 transition ${
               darkNavbar
                 ? "bg-lime-700 text-white hover:bg-lime-800"
@@ -91,7 +96,7 @@ export default function Navbar() {
             }`}
           >
             {t("Navbar.Sign Up")}
-          </button>
+          </button> */}
         </div>
 
         <button
@@ -126,10 +131,18 @@ export default function Navbar() {
         </div>
 
         <div className="mt-8 flex flex-col items-center gap-4 px-5 text-lg font-medium text-gray-900">
-          <Link to="/#header" className="px-4 py-2" onClick={handleShowMobileMenu}>
+          <Link
+            to="/#header"
+            className="px-4 py-2"
+            onClick={handleShowMobileMenu}
+          >
             {t("Navbar.Home")}
           </Link>
-          <Link to="/#about" className="px-4 py-2" onClick={handleShowMobileMenu}>
+          <Link
+            to="/#about"
+            className="px-4 py-2"
+            onClick={handleShowMobileMenu}
+          >
             {t("Navbar.About")}
           </Link>
           <Link

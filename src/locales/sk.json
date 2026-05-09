@@ -13,7 +13,7 @@
   },
   "About": {
     "Title1": "O našom",
-    "Title2": "Penzióne",
+    "Title2": "penzióne",
     "Slogan": "Objavte pokoj v srdci Pieninského národného parku",
     "Description": "Oddýchnite si tam, kde rieka Dunajec stretáva ticho Pienin. V srdci Pieninského národného parku v obci Červený Kláštor vás čaká celoročné ubytovanie v útulných domčekoch a apartmánoch obklopených krásnou prírodou. Užite si pokojné rána s možnosťou chutných raňajok, večerné posedenia s rodinou či priateľmi pri krbe alebo grile a príjemnú atmosféru záhrady priamo v areáli penziónu. Samozrejmosťou je súkromné parkovanie, plne vybavené kuchynky a detský kútik pre najmenších hostí. Či už hľadáte miesto na rodinnú dovolenku, stretnutie s priateľmi, školský výlet alebo firemné posedenie, u nás nájdete pokoj, pohodlie a priestor na spoločné chvíle v jedinečnom prostredí Pienin. Miesto, kde spomalíte, nadýchnete sa a budete sa chcieť vrátiť.",
     "Years": "Rokov v prevádzke",
@@ -164,6 +164,11 @@
       ]
     }
   },
+  "Gallery": {
+    "Title1": "Naša",
+    "Title2": "Gallery",
+    "Slogan": "Discover the atmosphere of our accommodation"
+  },
   "Testimonials": {
     "Title1": "Recenzie",
     "Title2": "hostí",
@@ -179,5 +184,10 @@
     "Email": "Email",
     "Message": "Správa",
     "Button": "Odoslať správu"
+  },
+  "Footer": {
+    "Description": "Oddýchnite si tam, kde rieka Dunajec stretáva ticho Pienin. V srdci Pieninského národného parku v obci Červený Kláštor vás čaká celoročné ubytovanie v útulných domčekoch a apartmánoch obklopených krásnou prírodou. Užite si pokojné rána s možnosťou chutných raňajok, večerné posedenia s rodinou či priateľmi pri krbe alebo grile a príjemnú atmosféru záhrady priamo v areáli penziónu.",
+    "Discover": "Objavuj",
+    "Contact": "Kontakt"
   }
 }
