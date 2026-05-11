@@ -84,6 +84,11 @@ export default function Navbar() {
             title={t("Navbar.Testimonials")}
             darkNavbar={darkNavbar}
           />
+          <NavbarItem
+            to="/#visit"
+            title={t("Navbar.Visit")}
+            darkNavbar={darkNavbar}
+          />
         </nav>
 
         <div className="hidden items-center gap-3 md:flex">
@@ -165,6 +170,13 @@ export default function Navbar() {
             onClick={handleShowMobileMenu}
           >
             {t("Navbar.Testimonials")}
+          </Link>
+          <Link
+            to="/#visit"
+            className="px-4 py-2"
+            onClick={handleShowMobileMenu}
+          >
+            {t("Navbar.Visit")}
           </Link>
 
           <div className="mt-4">

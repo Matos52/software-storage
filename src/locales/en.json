@@ -2,7 +2,7 @@
   "Header": {
     "Main Text": "Your peaceful stay beneath the Three Crowns",
     "Accommodation": "Accommodation",
-    "Contact Us": "Contact Us"
+    "Contact": "Contact Us"
   },
   "Navbar": {
     "Home": "Home",
@@ -10,6 +10,7 @@
     "Accommodation": "Accommodation",
     "Gallery": "Gallery",
     "Testimonials": "Testimonials",
+    "Visit": "Visit Us",
     "Sign Up": "Sign Up"
   },
   "About": {
@@ -74,7 +75,7 @@
         "Local tax",
         "€1.50 / person / night",
         "Children under 3 stay free. Baby cot: €10 / stay.",
-        "Inquiry"
+        "Contact Us"
       ]
     },
     "Penzion2": {
@@ -105,7 +106,7 @@
         "Local tax",
         "€1.50 / person / night",
         "Children under 3 stay free. Baby cot: €10 / stay.",
-        "Inquiry"
+        "Contact Us"
       ]
     },
     "Apartment1": {
@@ -133,7 +134,7 @@
         "Local tax",
         "€1.50 / person / night",
         "Children under 3 stay free.",
-        "Inquiry"
+        "Contact Us"
       ]
     },
     "Apartment2": {
@@ -161,7 +162,7 @@
         "Local tax",
         "€1.50 / person / night",
         "Children under 3 stay free.",
-        "Inquiry"
+        "Contact Us"
       ]
     }
   },
@@ -182,7 +183,7 @@
   },
   "Contact": {
     "Title1": "Contact",
-    "Title2": "us",
+    "Title2": "Us",
     "Slogan": "Plan your stay in the heart of the Pieniny Mountains – we’re here for you",
     "First name": "First Name",
     "Last name": "Last name",
@@ -195,5 +196,10 @@
     "Description": "Relax where the Dunajec River meets the silence of the Pieniny Mountains. Located in the heart of Pieniny National Park in the village of Červený Kláštor, our year-round guesthouse offers cozy cottages and apartments surrounded by beautiful nature. Enjoy peaceful mornings with optional breakfast, pleasant evenings with family and friends by the fireplace or barbecue, and relaxing moments in the garden seating area within the guesthouse grounds.",
     "Discover": "Discover",
     "Contact": "Contact"
+  },
+  "Visit": {
+    "Title1": "Visit",
+    "Title2": "Us",
+    "Slogan": "A place where nature, relaxation and comfort come together."
   }
 }

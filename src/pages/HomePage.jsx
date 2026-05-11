@@ -4,6 +4,7 @@ import Testimonials from "../sections/Testimonials";
 import Contact from "../sections/Contact";
 import About from "../sections/About";
 import Gallery from "../sections/Gallery";
+import Visit from "../sections/Visit";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,9 @@ const HomePage = () => {
       </section>
       <section id="testimonials" className="md:scroll-mt-32">
         <Testimonials />
+      </section>
+      <section id="visit" className="md:scroll-mt-32">
+        <Visit />
       </section>
       <section id="contact" className="bg-gray-50 md:scroll-mt-32">
         <Contact />

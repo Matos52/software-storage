@@ -29,7 +29,7 @@ export default function Header() {
           >
             {t("Header.Accommodation")}
           </a>
-          <Button title={t("Header.Contact Us")} href="#contact" />
+          <Button title={t("Header.Contact")} href="#contact" />
         </div>
       </motion.div>
     </div>

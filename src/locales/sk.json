@@ -2,7 +2,7 @@
   "Header": {
     "Main Text": "Váš pokojný pobyt pod Tromi korunami",
     "Accommodation": "Ubytovanie",
-    "Contact Us": "Kontaktuje nás"
+    "Contact": "Kontaktuje nás"
   },
   "Navbar": {
     "Home": "Domov",
@@ -10,6 +10,7 @@
     "Accommodation": "Ubytovanie",
     "Gallery": "Galéria",
     "Testimonials": "Čo o nás hovoria",
+    "Visit": "Navštívte nás",
     "Sign Up": "Prihlásenie"
   },
   "About": {
@@ -74,7 +75,7 @@
         "Poplatok obci",
         "1,50€ / osoba / noc",
         "Dieťa do 3 rokov zdarma. Detská postieľka: 10€ / pobyt.",
-        "Nezáväzný dopyt"
+        "Kontaktujte nás"
       ]
     },
     "Penzion2": {
@@ -105,7 +106,7 @@
         "Poplatok obci",
         "1,50€ / osoba / noc",
         "Dieťa do 3 rokov zdarma. Detská postieľka: 10€ / pobyt.",
-        "Nezáväzný dopyt"
+        "Kontaktujte nás"
       ]
     },
     "Apartment1": {
@@ -133,7 +134,7 @@
         "Poplatok obci",
         "1,50€ / osoba / noc",
         "Dieťa do 3 rokov zdarma.",
-        "Nezáväzný dopyt"
+        "Kontaktujte nás"
       ]
     },
     "Apartment2": {
@@ -161,7 +162,7 @@
         "Poplatok obci",
         "1,50€ / osoba / noc",
         "Dieťa do 3 rokov zdarma.",
-        "Nezáväzný dopyt"
+        "Kontaktujte nás"
       ]
     }
   },
@@ -195,5 +196,10 @@
     "Description": "Oddýchnite si tam, kde rieka Dunajec stretáva ticho Pienin. V srdci Pieninského národného parku v obci Červený Kláštor vás čaká celoročné ubytovanie v útulných domčekoch a apartmánoch obklopených krásnou prírodou. Užite si pokojné rána s možnosťou chutných raňajok, večerné posedenia s rodinou či priateľmi pri krbe alebo grile a príjemnú atmosféru záhrady priamo v areáli penziónu.",
     "Discover": "Objavuj",
     "Contact": "Kontakt"
+  },
+  "Visit": {
+    "Title1": "Navštívte",
+    "Title2": "nás",
+    "Slogan": "Miesto, kde sa stretáva príroda, oddych a pohodlie."
   }
 }

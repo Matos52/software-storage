@@ -22,7 +22,8 @@ export default function Footer() {
     { to: "/#about", label: t("Navbar.About") },
     { to: "/#accommodation", label: t("Navbar.Accommodation") },
     { to: "/#testimonials", label: t("Navbar.Testimonials") },
-    { to: "/#contact", label: t("Header.Contact Us") },
+    { to: "/#visit", label: t("Navbar.Visit") },
+    { to: "/#contact", label: t("Header.Contact") },
   ];
 
   return (
