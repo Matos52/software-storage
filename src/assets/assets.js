@@ -73,6 +73,17 @@ export const assets = {
   logo_black,
 };
 
+export const contactDetails = {
+  googleLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.865124683797!2d20.4087943!3d49.3925433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473e0488ce4183f7%3A0x4a2ef308e698aff!2sPenzi%C3%B3n%20Pod%20Troma%20Korunami%20-%20Regecov%C3%A1!5e0!3m2!1ssk!2ssk!4v1778955748171!5m2!1ssk!2ssk",
+  instagramLink: "https://www.instagram.com/chalupa_pod_troma_korunami/",
+  facebookLink: "https://www.facebook.com/people/Penzi%C3%B3n-pod-Troma-Korunami-Pieniny/100057196040800/#",
+  bookingLink: "https://www.booking.com/hotel/sk/penzion-pod-troma-korunami.sk.html?aid=318615&label=Slovak_SK_28510485265-RZO7UmCwJy5j6kmxWF9cOgS637942122695%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi55816998252%3Atidsa-322194489551%3Alp9195436%3Ali%3Adec%3Adm%3Aag28510485265%3Acmp108543985&sid=463d0d610913987c865b89465dc5caa1&dest_id=-841335&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1778324331&srpvid=44224d3352330234&type=total&ucfs=1&",
+  phoneNumber: "+421 911 653 886",
+  email: "zuzumichlikova@gmail.com",
+  address: "Červený Kláštor 41, 059 06",
+  policy: "© 2026 Chalupy pod troma korunami. All rights reserved."
+}
+
 export const testimonialsData = [
   {
     name: "Donald Jackman",

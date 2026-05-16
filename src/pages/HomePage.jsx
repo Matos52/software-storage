@@ -24,10 +24,10 @@ const HomePage = () => {
       <section id="testimonials" className="md:scroll-mt-32">
         <Testimonials />
       </section>
-      <section id="visit" className="md:scroll-mt-32">
+      <section id="visit" className="bg-gray-50 md:scroll-mt-32">
         <Visit />
       </section>
-      <section id="contact" className="bg-gray-50 md:scroll-mt-32">
+      <section id="contact" className="md:scroll-mt-32">
         <Contact />
       </section>
     </>

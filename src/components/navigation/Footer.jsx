@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { assets } from "../../assets/assets";
+import { assets, contactDetails } from "../../assets/assets";
 import { useTranslation } from "react-i18next";
 import { MapPin, Mail, Phone } from "lucide-react";
 import { FaInstagram, FaFacebookF } from "react-icons/fa";
@@ -7,15 +7,6 @@ import { SiBookingdotcom } from "react-icons/si";
 
 export default function Footer() {
   const { t } = useTranslation();
-
-  const instagramLink = "https://www.instagram.com/chalupa_pod_troma_korunami/";
-  const facebookLink =
-    "https://www.facebook.com/people/Penzi%C3%B3n-pod-Troma-Korunami-Pieniny/100057196040800/#";
-  const bookingLink =
-    "https://www.booking.com/hotel/sk/penzion-pod-troma-korunami.sk.html?aid=318615&label=Slovak_SK_28510485265-RZO7UmCwJy5j6kmxWF9cOgS637942122695%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi55816998252%3Atidsa-322194489551%3Alp9195436%3Ali%3Adec%3Adm%3Aag28510485265%3Acmp108543985&sid=463d0d610913987c865b89465dc5caa1&dest_id=-841335&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1778324331&srpvid=44224d3352330234&type=total&ucfs=1&";
-  const phoneNumber = "+421 911 653 886";
-  const email = "zuzumichlikova@gmail.com";
-  const address = "Červený Kláštor 41, 059 06";
 
   const links = [
     { to: "/#header", label: t("Navbar.Home") },
@@ -71,7 +62,7 @@ export default function Footer() {
                   className="flex items-center gap-2 transition hover:text-lime-700"
                 >
                   <Phone className="h-[18px] w-[18px] shrink-0 text-lime-600" />
-                  <span>{phoneNumber}</span>
+                  <span>{contactDetails.phoneNumber}</span>
                 </a>
 
                 <a
@@ -79,18 +70,18 @@ export default function Footer() {
                   className="flex items-center gap-2 transition hover:text-lime-700"
                 >
                   <Mail className="h-[18px] w-[18px] shrink-0 text-lime-600" />
-                  <span className="break-words">{email}</span>
+                  <span className="break-words">{contactDetails.email}</span>
                 </a>
 
                 <div className="flex items-start gap-2">
                   <MapPin className="mt-1 h-[18px] w-[18px] shrink-0 text-lime-600" />
-                  <p>{address}</p>
+                  <p>{contactDetails.address}</p>
                 </div>
               </div>
 
               <div className="flex items-center gap-4">
                 <a
-                  href={instagramLink}
+                  href={contactDetails.instagramLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-stone-300 transition hover:text-lime-700"
@@ -99,7 +90,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href={facebookLink}
+                  href={contactDetails.facebookLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-stone-300 transition hover:text-lime-700"
@@ -108,7 +99,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href={bookingLink}
+                  href={contactDetails.bookingLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-stone-300 transition hover:text-lime-700"
@@ -139,30 +130,30 @@ export default function Footer() {
 
             <div className="space-y-3 text-stone-300 mb-4">
               <a
-                href="tel:+421911653886"
+                href={`tel:${contactDetails.phoneNumber}`}
                 className="flex items-center gap-2 transition hover:text-lime-700"
               >
                 <Phone className="h-[18px] w-[18px] text-lime-600" />
-                <span>{phoneNumber}</span>
+                <span>{contactDetails.phoneNumber}</span>
               </a>
 
               <a
-                href="mailto:zuzumichlikova@gmail.com"
+                href={`tel:${contactDetails.email}`}
                 className="flex items-center gap-2 break-words transition hover:text-lime-700"
               >
                 <Mail className="h-[18px] w-[18px] text-lime-600" />
-                <span>{email}</span>
+                <span>{contactDetails.email}</span>
               </a>
 
               <div className="flex items-start gap-2">
                 <MapPin className="mt-1 h-[18px] w-[18px] shrink-0 text-lime-600" />
-                <p>{address}</p>
+                <p>{contactDetails.address}</p>
               </div>
             </div>
             {/* Social media */}
             <div className="flex items-center gap-4">
               <a
-                href={instagramLink}
+                href={contactDetails.instagramLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-stone-300 transition hover:text-pink-500"
@@ -171,7 +162,7 @@ export default function Footer() {
               </a>
 
               <a
-                href={facebookLink}
+                href={contactDetails.facebookLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-stone-300 transition hover:text-blue-500"
@@ -179,7 +170,7 @@ export default function Footer() {
                 <FaFacebookF size={18} />
               </a>
               <a
-                href={bookingLink}
+                href={contactDetails.bookingLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-stone-300 transition hover:text-blue-700"
@@ -209,7 +200,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="mt-10 border-t border-white/10 py-5 text-center text-sm text-stone-400">
-          © 2026 Chalupy pod troma korunami. All rights reserved.
+          {contactDetails.policy}
         </div>
       </div>
     </footer>

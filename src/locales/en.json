@@ -200,6 +200,11 @@
   "Visit": {
     "Title1": "Visit",
     "Title2": "Us",
-    "Slogan": "A place where nature, relaxation and comfort come together."
+    "Slogan": "A place where nature, relaxation and comfort come together.",
+    "WeAreHere": "We are here for you",
+    "Contact": "Contact Details",
+    "Email": "Email",
+    "Phone": "Phone",
+    "Address": "Address"
   }
 }

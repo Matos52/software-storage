@@ -200,6 +200,11 @@
   "Visit": {
     "Title1": "Navštívte",
     "Title2": "nás",
-    "Slogan": "Miesto, kde sa stretáva príroda, oddych a pohodlie."
+    "Slogan": "Miesto, kde sa stretáva príroda, oddych a pohodlie.",
+    "WeAreHere": "Sme tu pre vás",
+    "Contact": "Kontaktné údaje",
+    "Email": "Email",
+    "Phone": "Telefón",
+    "Address": "Adresa"
   }
 }

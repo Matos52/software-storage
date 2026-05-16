@@ -14,7 +14,7 @@ const AccommodationCard = ({ image, title, rooms, beds, extraBeds, slug }) => {
           <Link to={`/accommodation/${slug}`} className="group">
             <h2 className="relative inline-block text-lg md:text-xl font-semibold text-gray-800 transition-colors duration-300 group-hover:text-gray-700">
               {title}
-              <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute left-0 -bottom-0 h-[2px] w-0 bg-gray-700 transition-all duration-300 group-hover:w-full"></span>
             </h2>
           </Link>
           <p className="text-gray-500 text-sm">{rooms}</p>

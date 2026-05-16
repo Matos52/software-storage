@@ -22,7 +22,7 @@ export default function Accommodation() {
       />
 
       {/* accommodations container */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
         {accommodations.map((item) => (
           <AccommodationCard
             key={item.slug}
