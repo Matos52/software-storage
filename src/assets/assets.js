@@ -18,10 +18,7 @@ import parking_icon from "./icons/accommodation/square-parking.svg";
 import outdoor_icon from "./icons/accommodation/picnic-table.svg";
 import header_img from "./images/header_img.png";
 import brand_img from "./images/brand_img.png";
-import project_img_1 from "./images/project_img_1.jpg";
-import project_img_2 from "./images/project_img_2.jpg";
-import project_img_3 from "./images/project_img_3.jpg";
-import project_img_4 from "./images/project_img_4.jpg";
+import brand_img_2 from "./images/IMG_7152.jpg";
 import profile_img_1 from "./images/profile_img_1.png";
 import profile_img_2 from "./images/profile_img_2.png";
 import profile_img_3 from "./images/profile_img_3.png";
@@ -63,10 +60,7 @@ export const assets = {
   outdoor_icon,
   header_img,
   brand_img,
-  project_img_1,
-  project_img_2,
-  project_img_3,
-  project_img_4,
+  brand_img_2,
   left_arrow,
   right_arrow,
   logo_white,
@@ -86,29 +80,29 @@ export const contactDetails = {
 
 export const testimonialsData = [
   {
-    name: "Donald Jackman",
-    title: "Marketing Manager",
-    image: profile_img_1,
-    alt: "Portrait of Donald Jackman",
+    name: "Helena",
+    title: "Slovensko",
     rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text: "Veľmi milá majiteľka, aj personál. Ubytovanie na veľmi dobrom mieste. Osobne ma potešilo, že je apartmán s priamým východom na dvor (bez schodov), kde bola možnosť si napríklad opekať. Apartmán čistučký, kuchynka vybavená všetkým potrebným. Priamo na pozemku sú maličké potraviny dokonca. V okolí sú reštaurácie. K miestu kde vyplávajú plte je to na skok. Je naozaj vhodný aj na viac dní dovolenky.",
   },
   {
-    name: "Richard Nelson",
-    title: "UI/UX Designer",
-    image: profile_img_2,
-    alt: "Portrait of Richard Nelson",
+    name: "Venuše",
+    title: "Česká republika",
+    rating: 5,
+    text: "Prostorné, velmi dobře vybavené, nic nechybělo i obchůdek byl, auto mohlo zůstat zaparkované a chodili jsme všude pěšky i na kole, prostě skvělá dovolená.",
+  },
+  {
+    name: "Alicja",
+    title: "Poľsko",
     rating: 4,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text: "Możliwość bezpiecznego przechowania rowerów. Lokalizacja wypadowej rowerowej wzdłuż Dunajca idealna. Widok na trzy korony bezpośrednio nad rzeką Dunajec. Sklepik na terenie posiadłości z lokalnymi produktami. Bardzo blisko zlokalizowane restauracja ze smacznym jedzeniem oraz kuchnią regionalną.",
   },
   {
-    name: "James Washington",
-    title: "Co-Founder",
-    image: profile_img_3,
-    alt: "Portrait of James Washington",
+    name: "Gabriel",
+    title: "Slovensko",
     rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
-  },
+    text: "Príjemný pobyt v krásnom prostredí, milá a ochotná pani majiteľka. Všetko bolo čisté a parkovanie hneď pri apartmáne. Skvelý bonus je možnosť odložiť si bicykle. Môžme odporučiť.",
+  }
 ];
 
 export const accommodations = [

@@ -20,17 +20,12 @@ export default function Testimonials() {
         slogan={t("Testimonials.Slogan")}
       />
 
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="flex flex-wrap justify-center gap-6">
         {testimonialsData.map((testimonial, index) => (
           <div
             key={index}
-            className="max-w-[340px] border shadow-lg rounded px-8 p-12 text-center"
+            className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] border shadow-lg rounded-lg px-6 py-8 text-center"
           >
-            <img
-              className="w-20 h-20 rounded-full mx-auto mb-4"
-              src={testimonial.image}
-              alt={testimonial.alt}
-            />
             <h2 className="text-xl text-gray-700 font-medium">
               {testimonial.name}
             </h2>
