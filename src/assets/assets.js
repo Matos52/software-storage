@@ -18,10 +18,6 @@ import parking_icon from "./icons/accommodation/square-parking.svg";
 import outdoor_icon from "./icons/accommodation/picnic-table.svg";
 import header_img from "./images/header_img.png";
 import brand_img from "./images/brand_img.png";
-import brand_img_2 from "./images/IMG_7152.jpg";
-import profile_img_1 from "./images/profile_img_1.png";
-import profile_img_2 from "./images/profile_img_2.png";
-import profile_img_3 from "./images/profile_img_3.png";
 import logo_white from "./images/logo_white.png";
 import logo_black from "./images/logo_grey.png";
 import penzion1_1 from "./images/penzion1/IMG_1341.JPEG";
@@ -60,7 +56,6 @@ export const assets = {
   outdoor_icon,
   header_img,
   brand_img,
-  brand_img_2,
   left_arrow,
   right_arrow,
   logo_white,
