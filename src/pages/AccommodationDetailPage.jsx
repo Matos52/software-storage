@@ -70,7 +70,7 @@ const AccommodationDetailPage = () => {
   return (
     <section className="bg-gray-50 pt-32 pb-16 md:pt-48 md:pb-20">
       <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 md:px-8 lg:px-10">
-        <PhotoProvider>
+        <PhotoProvider key={accommodation.slug}>
           <h1 className="text-2xl font-semibold text-gray-900 md:text-3xl">
             {t(`${accommodation.translationKey}.Title`)}
           </h1>

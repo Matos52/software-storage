@@ -16,18 +16,25 @@ import bath_icon from "./icons/accommodation/bath.svg";
 import television_icon from "./icons/accommodation/monitor.svg";
 import parking_icon from "./icons/accommodation/square-parking.svg";
 import outdoor_icon from "./icons/accommodation/picnic-table.svg";
-import header_img from "./images/header_img.png";
-import brand_img from "./images/brand_img.png";
+import brand_img from "./images/about_img.png";
 import logo_white from "./images/logo_white.png";
 import logo_black from "./images/logo_grey.png";
-import penzion1_1 from "./images/penzion1/IMG_1341.JPEG";
-import penzion1_2 from "./images/penzion1/IMG_7180.JPG";
-import penzion1_3 from "./images/penzion1/IMG_7181.JPG";
-import penzion1_4 from "./images/others/IMG_0740.JPEG";
-import penzion2_1 from "./images/penzion2/IMG_1325.JPEG";
-import penzion2_2 from "./images/penzion2/IMG_3484.JPG";
-import penzion2_3 from "./images/penzion2/IMG_1326.JPEG";
-import penzion2_4 from "./images/others/IMG_1302.JPEG";
+import chalupa1_1 from "./images/chalupa1/IMG_1341.JPEG";
+import chalupa1_2 from "./images/chalupa1/IMG_7180.JPG";
+import chalupa1_3 from "./images/chalupa1/IMG_7178.JPG";
+import chalupa1_4 from "./images/chalupa1/IMG_7181.JPG";
+import chalupa1_5 from "./images/chalupa1/IMG_8299.JPEG";
+import chalupa1_6 from "./images/chalupa1/IMG_3265.JPG";
+import chalupa1_7 from "./images/others/IMG_0740.JPEG";
+import chalupa2_1 from "./images/chalupa2/IMG_3491.JPG";
+import chalupa2_2 from "./images/chalupa2/IMG_1328.JPEG";
+import chalupa2_3 from "./images/chalupa2/IMG_1330.JPEG";
+import chalupa2_4 from "./images/chalupa2/IMG_3484.JPG";
+import chalupa2_5 from "./images/chalupa2/IMG_3483.JPG";
+import chalupa2_6 from "./images/chalupa2/IMG_3486.JPG";
+import chalupa2_7 from "./images/others/IMG_1302.JPEG";
+import others_1 from "./images/others/IMG_0737.JPEG";
+import others_2 from "./images/others/DSC07915.JPG";
 import apartment1_1 from "./images/apartment1/IMG_8573.JPEG";
 import apartment1_2 from "./images/apartment1/IMG_1830.JPG";
 import apartment1_3 from "./images/others/IMG_1286.JPEG";
@@ -35,7 +42,8 @@ import apartment1_4 from "./images/others/IMG_0741.JPEG";
 import apartment2_1 from "./images/apartment2/FullSizeRender.JPEG";
 import apartment2_2 from "./images/apartment2/FullSizeRender-1.JPEG";
 import apartment2_3 from "./images/apartment2/FullSizeRender-2.JPEG";
-import apartment2_4 from "./images/others/IMG_8812.JPEG";
+import apartment2_4 from "./images/apartment2/IMG_1827.JPG";
+import apartment2_5 from "./images/others/IMG_8812.JPEG";
 
 export const assets = {
   logo,
@@ -54,7 +62,6 @@ export const assets = {
   television_icon,
   parking_icon,
   outdoor_icon,
-  header_img,
   brand_img,
   left_arrow,
   right_arrow,
@@ -102,14 +109,14 @@ export const testimonialsData = [
 
 export const accommodations = [
   {
-    translationKey: "Accommodation.Penzion1",
+    translationKey: "Accommodation.Chalupa1",
     slug: "guesthouse",
-    images: [penzion1_1, penzion1_2, penzion1_3, penzion1_4],
+    images: [chalupa1_1, chalupa1_2, chalupa1_3, chalupa1_4, chalupa1_5, chalupa1_6, chalupa1_7],
   },
   {
-    translationKey: "Accommodation.Penzion2",
+    translationKey: "Accommodation.Chalupa2",
     slug: "cottage",
-    images: [penzion2_1, penzion2_2, penzion2_3, penzion2_4],
+    images: [chalupa2_1, chalupa2_2, chalupa2_3, chalupa2_4, chalupa2_5, chalupa2_6, chalupa2_7],
   },
   {
     translationKey: "Accommodation.Apartment1",
@@ -119,13 +126,14 @@ export const accommodations = [
   {
     translationKey: "Accommodation.Apartment2",
     slug: "mountain-view-apartment",
-    images: [apartment2_1, apartment2_2, apartment2_3, apartment2_4],
+    images: [apartment2_1, apartment2_2, apartment2_3, apartment2_4, apartment2_5],
   },
 ];
 
 export const allImages = {
-  guesthouse: [penzion1_1, penzion1_2, penzion1_3, penzion1_4],
-  cottage: [penzion2_1, penzion2_2, penzion2_3, penzion2_4],
+  guesthouse: [chalupa1_1, chalupa1_2, chalupa1_3, chalupa1_4, chalupa1_5, chalupa1_6, chalupa1_7],
+  cottage: [chalupa2_1, chalupa2_2, chalupa2_3, chalupa2_4, chalupa2_5, chalupa2_6, chalupa2_7],
   apartment1: [apartment1_1, apartment1_2, apartment1_3, apartment1_4],
-  apartment2: [apartment2_1, apartment2_2, apartment2_3, apartment2_4]
+  apartment2: [apartment2_1, apartment2_2, apartment2_3, apartment2_4, apartment2_5],
+  exterior: [apartment1_4, chalupa1_7, apartment1_3, chalupa2_7, apartment2_5, others_1, others_2],
 };

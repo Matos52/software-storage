@@ -14,19 +14,19 @@
     "Sign Up": "Prihlásenie"
   },
   "About": {
-    "Title1": "O našom",
-    "Title2": "penzióne",
+    "Title1": "O našich",
+    "Title2": "chalupách a apartmánoch",
     "Slogan": "Objavte pokoj v srdci Pieninského národného parku",
-    "Description": "Oddýchnite si tam, kde rieka Dunajec stretáva ticho Pienin. V srdci Pieninského národného parku v obci Červený Kláštor vás čaká celoročné ubytovanie v útulných domčekoch a apartmánoch obklopených krásnou prírodou. Užite si pokojné rána s možnosťou chutných raňajok, večerné posedenia s rodinou či priateľmi pri krbe alebo grile a príjemnú atmosféru záhrady priamo v areáli penziónu. Samozrejmosťou je súkromné parkovanie, plne vybavené kuchynky a detský kútik pre najmenších hostí. Či už hľadáte miesto na rodinnú dovolenku, stretnutie s priateľmi, školský výlet alebo firemné posedenie, u nás nájdete pokoj, pohodlie a priestor na spoločné chvíle v jedinečnom prostredí Pienin. Miesto, kde spomalíte, nadýchnete sa a budete sa chcieť vrátiť.",
+    "Description": "Oddýchnite si tam, kde rieka Dunajec stretáva ticho Pienin. V srdci Pieninského národného parku v obci Červený Kláštor vás čaká celoročné ubytovanie v útulných domčekoch a apartmánoch obklopených krásnou prírodou. Užite si pokojné rána s možnosťou chutných raňajok, večerné posedenia s rodinou či priateľmi pri krbe alebo grile a príjemnú atmosféru záhrady priamo v areáli chalupy. Samozrejmosťou je súkromné parkovanie, plne vybavené kuchynky a detský kútik pre najmenších hostí. Či už hľadáte miesto na rodinnú dovolenku, stretnutie s priateľmi, školský výlet alebo firemné posedenie, u nás nájdete pokoj, pohodlie a priestor na spoločné chvíle v jedinečnom prostredí Pienin. Miesto, kde spomalíte, nadýchnete sa a budete sa chcieť vrátiť.",
     "Years": "Rokov v prevádzke",
-    "Guesthouses": "Penzióny",
+    "Guesthouses": "Chalupy",
     "Apartments": "Apartmány",
     "Beds": "Lôžok",
     "Learn more": "Zistiť viac"
   },
   "Accommodation": {
     "Title1": "Naše",
-    "Title2": "penzióny a apartmány",
+    "Title2": "chalupy a apartmány",
     "Title3": "O ubytovaní",
     "Title4": "Vybavenie",
     "Title5": "Galéria",
@@ -47,13 +47,13 @@
     ],
     "Slogan": "Komfortné a plne vybavené izby pre váš príjemný oddych.",
     "Location": "Červený Kláštor",
-    "Penzion1": {
-      "Title": "Penzión pod Troma Korunami",
-      "Title1": "Penzión",
-      "Title2": "pod Troma Korunami",
-      "Desc1": "Penzión ponúka príjemné ubytovanie v šiestich samostatných izbách, ktoré sú ideálne pre rodiny s deťmi, skupiny priateľov aj menšie organizované pobyty. Na prvom poschodí sa nachádzajú štyri izby, z ktorých dve majú vlastnú kúpeľňu so sprchovacím kútom, umývadlom a WC, zatiaľ čo ďalšie dve využívajú spoločné sociálne zariadenie. Zvyšné dve izby sú situované v útulnom podkroví na druhom poschodí a majú k dispozícii ďalšiu spoločnú kúpeľňu.",
+    "Chalupa1": {
+      "Title": "Chalupa pri dunajci",
+      "Title1": "Chalupa",
+      "Title2": "pri dunajci",
+      "Desc1": "Chalupa ponúka príjemné ubytovanie v šiestich samostatných izbách, ktoré sú ideálne pre rodiny s deťmi, skupiny priateľov aj menšie organizované pobyty. Na prvom poschodí sa nachádzajú štyri izby, z ktorých dve majú vlastnú kúpeľňu so sprchovacím kútom, umývadlom a WC, zatiaľ čo ďalšie dve využívajú spoločné sociálne zariadenie. Zvyšné dve izby sú situované v útulnom podkroví na druhom poschodí a majú k dispozícii ďalšiu spoločnú kúpeľňu.",
       "Desc2": "Hosťom je k dispozícii priestranná spoločenská miestnosť s krbom, TV so satelitnými kanálmi a pohodlným posedením, ktorá vytvára príjemné miesto na oddych po dni strávenom v prírode. Súčasťou tejto miestnosti je aj detský kútik pre najmenších hostí. K dispozícii je tiež jedáleň a plne vybavená kuchyňa s plynovým sporákom, elektrickou rúrou, mikrovlnnou rúrou, chladničkou s mrazničkou a rýchlovarnou kanvicou, vhodná na prípravu vlastných jedál.",
-      "Desc3": "Priamo pri penzióne sa nachádza kryté vonkajšie posedenie s krbom. Samozrejmosťou je WiFi pripojenie dostupné v celom objekte, ktoré zabezpečuje pohodlný pobyt aj počas dlhších návštev.",
+      "Desc3": "Priamo pri chalupe sa nachádza kryté vonkajšie posedenie s krbom. Samozrejmosťou je WiFi pripojenie dostupné v celom objekte, ktoré zabezpečuje pohodlný pobyt aj počas dlhších návštev.",
       "Rooms": "6 samostatných izieb",
       "Beds": "13 lôžok",
       "Extra Beds": "5 prísteliek",
@@ -78,7 +78,7 @@
         "Kontaktujte nás"
       ]
     },
-    "Penzion2": {
+    "Chalupa2": {
       "Title": "Chalupa pod Troma Korunami",
       "Title1": "Chalupa",
       "Title2": "pod Troma Korunami",
@@ -170,8 +170,8 @@
     "Title1": "Naša",
     "Title2": "galéria",
     "Slogan": "Zachyťte atmosféru nášho ubytovania",
-    "Guesthouse": "Penzión",
-    "Cottage": "Chalupa",
+    "Guesthouse": "Chalupa 1",
+    "Cottage": "Chalupa 2",
     "Apartment1": "Apartmán 1",
     "Apartment2": "Apartmán 2",
     "Exterior": "Exteriér"
@@ -193,7 +193,7 @@
     "Button": "Odoslať správu"
   },
   "Footer": {
-    "Description": "Oddýchnite si tam, kde rieka Dunajec stretáva ticho Pienin. V srdci Pieninského národného parku v obci Červený Kláštor vás čaká celoročné ubytovanie v útulných domčekoch a apartmánoch obklopených krásnou prírodou. Užite si pokojné rána s možnosťou chutných raňajok, večerné posedenia s rodinou či priateľmi pri krbe alebo grile a príjemnú atmosféru záhrady priamo v areáli penziónu.",
+    "Description": "Oddýchnite si tam, kde rieka Dunajec stretáva ticho Pienin. V srdci Pieninského národného parku v obci Červený Kláštor vás čaká celoročné ubytovanie v útulných domčekoch a apartmánoch obklopených krásnou prírodou. Užite si pokojné rána s možnosťou chutných raňajok, večerné posedenia s rodinou či priateľmi pri krbe alebo grile a príjemnú atmosféru záhrady priamo v areáli chalupy.",
     "Discover": "Objavuj",
     "Contact": "Kontakt"
   },

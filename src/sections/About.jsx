@@ -21,7 +21,7 @@ export default function About() {
         slogan={t("About.Slogan")}
       />
       <div className="flex flex-col md:flex-row items-center md:items-end md:gap-24">
-        <img src={assets.brand_img} alt="Brand Image" className="w-full sm:w-1/2 max-w-lg mb-8" />
+        <img src={assets.brand_img} alt="Brand Image" className="w-full sm:w-1/2 max-w-lg mb-8 md:mb-0 rounded-3xl" />
         <div className="flex flex-col items-center md:items-start text-gray-700">
           <div className="grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28">
             <div>
